@@ -12,7 +12,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-       <Header />
+       <PageContainer title="Page">
+         
+         <div>HELLO</div>
+         </PageContainer>
           
       <footer className={styles.footer}>
         <a
