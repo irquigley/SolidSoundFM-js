@@ -11,7 +11,7 @@ export default function Home() {
     <>
        <PageContainer title="Solid Sound FM">
           <div>HELLO</div>
-          <FacebookPlugin />
+          
        </PageContainer>
          
       <footer className={styles.footer}>
