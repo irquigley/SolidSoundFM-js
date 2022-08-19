@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Header from '../components/Header'
+import HeaderBig from '../components/HeaderBig'
 import PageContainer from '../components/PageContainer'
 import FacebookPlugin from '../components/scripts/facebook'
 
@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
        <PageContainer title="Solid Sound FM">
-          <div>HELLO</div>
+          <HeaderBig>Header big</HeaderBig>
           <FacebookPlugin />
        </PageContainer>
          
