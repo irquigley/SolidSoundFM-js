@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Header from '../components/Header'
 import PageContainer from '../components/PageContainer'
+import FacebookPlugin from '../components/scripts/facebook'
+
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -9,6 +11,7 @@ export default function Home() {
     <>
        <PageContainer title="Solid Sound FM">
           <div>HELLO</div>
+          <FacebookPlugin />
        </PageContainer>
          
       <footer className={styles.footer}>
