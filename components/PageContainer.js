@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import Script from 'next/script'
 import Header from './Header'
-import GoogleAnalytics from './scripts/GoogleAnalytics'
+import GoogleAnalytics from './scripts/googleanalytics'
 
 export default function PageContainer({title, children}) {
   return (
