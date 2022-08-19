@@ -1,5 +1,5 @@
-export default function HeaderBig({text}) {
+export default function HeaderBig({children}) {
   return (
-      <h1>{text}</h1>
+      <h1>{children}</h1>
     )
 }
