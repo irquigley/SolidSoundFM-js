@@ -8,7 +8,7 @@ export default function PageContainer({title, content}) {
     {content}
     </>
      <div className="footer">
-        Copyright 2013-2022. SolidSoundFM.
+        Copyright 2013-{new Date().getFullYear()}. SolidSoundFM.
     </div>
   )
 }
