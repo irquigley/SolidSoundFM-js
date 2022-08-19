@@ -11,7 +11,7 @@ export default function PageContainer({title, children}) {
         Copyright 2013-{new Date().getFullYear()}. SolidSoundFM.
     </div>
     
-    <Script> {
+    <Script id="googleAnalytics"> {
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-6713202-18']);
       _gaq.push(['_setDomainName', 'solidsound.fm']);
