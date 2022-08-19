@@ -2,10 +2,10 @@ import Link from 'next/Link'
 
 export default function Header() {
   return (    
-     <div class="header-wrap">
-          <div class="header">
+     <div className="header-wrap">
+          <div className="header">
                   <h1><span>Solid Sound</span></h1>
-                  <div class="menu">
+                  <div className="menu">
                       <ul>
                           <li><Link href="/">HOME</Link></li>
                           <li><Link  href="kushti">KUSHTI</Link></li>
