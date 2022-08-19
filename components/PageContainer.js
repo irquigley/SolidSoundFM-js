@@ -1,11 +1,11 @@
 import Link from 'next/link'
 import Header from './Header'
 
-export default function PageContainer({title, content}) {
+export default function PageContainer({title, children}) {
   return (
     <>
     <Header title={title}/>
-    <div>{content}</div>
+    <div>{children}</div>
      <div className="footer">
         Copyright 2013-{new Date().getFullYear()}. SolidSoundFM.
     </div>
