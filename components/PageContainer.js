@@ -5,6 +5,7 @@ export default function PageContainer({title, content}) {
   return (
     <>
     <Header />
+    {content}
     </>
   )
 }
