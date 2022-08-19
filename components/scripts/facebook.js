@@ -2,8 +2,8 @@ import Script from 'next/script'
 
 export default function FacebookPlugin({title, children}) {
   return (
-	  <div style="float:right; width: 370px; background: rgba(100,100,100,0.4); margin-top: 20px; margin-left:20px; min-height: 200px; padding: 0px 0px 2px 0px;">
-        <div id="fb-root" style="padding: 5px 8px 7px 8px;;"></div>
+	  <div >
+        <div id="fb-root"></div>
         <Script id="FacebookPlugin">
         {`
         (function(d, s, id) {
