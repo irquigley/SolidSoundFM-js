@@ -1,7 +1,14 @@
 import Link from 'next/link'
+import Head from 'next/head'
 
-export default function Header() {
-  return (    
+export default function Header({title}) {
+  return (
+     <Head>
+        <title>{title}/title>
+        <meta name="description" content="Solid Sound FM" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      
      <div className="header-wrap">
           <div className="header">
                   <h1><span>Solid Sound</span></h1>
