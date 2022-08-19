@@ -1,4 +1,4 @@
-import Link from 'next/Link'
+import Link from 'next/link'
 
 export default function Header() {
   return (    
@@ -7,13 +7,13 @@ export default function Header() {
                   <h1><span>Solid Sound</span></h1>
                   <div className="menu">
                       <ul>
-                          <li><Link href="/">HOME</Link></li>
-                          <li><Link  href="kushti">KUSHTI</Link></li>
-                          <li><Link  href="interviews">TALKING TUNES</Link></li>
-                          <li><Link  href="guestmixes">GUEST MIX</Link></li>
-                          <li><Link  href="hard_rave">FREE TUNES</Link></li>
-                          <li><Link  href="newreleases">MUSIC REVIEW</Link></li>
-                          <li><Link  href="faq">FAQ</Link></li>
+                          <li><Link href="/"><a>HOME</a></Link></li>
+                          <li><Link href="kushti"><a>KUSHTI</a></Link></li>
+                          <li><Link href="interviews"><a>TALKING TUNES</a></Link></li>
+                          <li><Link href="guestmixes"><a>GUEST MIX</a></Link></li>
+                          <li><Link href="hard_rave"><a>FREE TUNES</a></Link></li>
+                          <li><Link href="newreleases"><a>MUSIC REVIEW</a></Link></li>
+                          <li><Link href="faq"><a>FAQ</a></Link></li>
                       </ul>
                   </div>
             </div>
