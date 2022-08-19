@@ -1,3 +1,5 @@
+import Link from 'next/Link'
+
 export default function Header() {
   return (    
      <div class="header-wrap">
@@ -5,13 +7,13 @@ export default function Header() {
                   <h1><span>Solid Sound</span></h1>
                   <div class="menu">
                       <ul>
-                          <li><a href="/">HOME</a></li>
-                          <li><a href="kushti">KUSHTI</a></li>
-                          <li><a href="interviews">TALKING TUNES</a></li>
-                          <li><a href="guestmixes">GUEST MIX</a></li>
-                          <li><a href="hard_rave">FREE TUNES</a></li>
-                          <li><a href="newreleases">MUSIC REVIEW</a></li>
-                          <li><a href="faq">FAQ</a></li>
+                          <li><Link href="/">HOME</Link></li>
+                          <li><Link  href="kushti">KUSHTI</Link></li>
+                          <li><Link  href="interviews">TALKING TUNES</Link></li>
+                          <li><Link  href="guestmixes">GUEST MIX</Link></li>
+                          <li><Link  href="hard_rave">FREE TUNES</Link></li>
+                          <li><Link  href="newreleases">MUSIC REVIEW</Link></li>
+                          <li><Link  href="faq">FAQ</Link></li>
                       </ul>
                   </div>
             </div>
