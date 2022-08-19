@@ -1,4 +1,8 @@
- <Script id="googleAnalytics"> 
+import Script from 'next/script'
+
+export default function GoogleAnalytics({title, children}) {
+  return (
+    <Script id="googleAnalytics"> 
       {`
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-6713202-18']);
@@ -12,3 +16,5 @@
       })();
       `}
     </Script>
+  )
+}
