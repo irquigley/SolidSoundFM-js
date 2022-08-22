@@ -3,7 +3,7 @@ const COLORS = [
   "purple"
 ]; 
 
-export default function BoxGroup({color},{children}) {
+export default function BoxGroup({color, children}) {
   
   const checkColor = COLORS.includes(color)
     ? color
