@@ -204,6 +204,10 @@ a:hover {
              letter-spacing: 0.07em;
 		}
 
+	.article-indent {
+		margin: 0px 8px 0px 8px;
+	}
+	
 	.mediumGap { 
 			margin-top:7px; 
 		}
