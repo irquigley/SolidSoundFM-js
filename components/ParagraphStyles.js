@@ -1,4 +1,4 @@
-export function ParaMega({children}) {
+export default function ParaMega({children}) {
   return (
       <p className="background-mega">{children}</p>
     )
