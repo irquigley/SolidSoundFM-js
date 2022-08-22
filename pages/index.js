@@ -1,5 +1,10 @@
 import Heading1 from '../components/Heading1'
 import Heading2 from '../components/Heading2'
+import ParaMega from '../components/ParagraphStyles'
+import ParaHighlight from '../components/ParagraphStyles'
+import ParaLight from '../components/ParagraphStyles'
+import ParaNormal from '../components/ParagraphStyles'
+
 import PageContainer from '../components/PageContainer'
 import FacebookPlugin from '../components/scripts/facebook'
 
@@ -12,6 +17,11 @@ export default function Home() {
           <Heading1>Header big</Heading1>
           <FacebookPlugin />
           <Heading2>Header small</Heading2>
+          <ParaMega>Para Mega</ParaMega>
+          <ParaHighlight>ParaHighlight</ParaHighlight>
+          <ParaLight>ParaLight</ParaLight>
+          <ParaNormal>ParaNormal</ParaNormal>
+    
        </PageContainer>
     </>
   )
