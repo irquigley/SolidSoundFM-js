@@ -138,9 +138,14 @@ a:hover {
 			letter-spacing: 0.07em;
 		}
 
-		.headgap { 
+		.mediumGap { 
 			margin-top:30px; 
 		}
+	
+		.smallGap { 
+			margin-top: 14px; 
+		}
+	
 		.article-indent {
 			margin: 0px 29px 0px 20px;
 		}
@@ -199,10 +204,14 @@ a:hover {
              letter-spacing: 0.07em;
 		}
 
-	.headgap { 
+	.mediumGap { 
 			margin-top:7px; 
 		}
-		
+
+	.smallGap { 
+		margin-top: 3px; 
+		}
+
 		.boxes .box {
 			
 			margin: 10px;
