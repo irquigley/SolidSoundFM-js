@@ -5,6 +5,8 @@ import ParaHighlight from '../components/ParaHighlight'
 import ParaLight from '../components/ParaLight'
 import ParaNormal from '../components/ParaNormal'
 import Article from '../components/Article'
+import GapSmall from '../components/GapSmall'
+import GapMedium from '../components/GapMedium'
 
 import PageContainer from '../components/PageContainer'
 import FacebookPlugin from '../components/scripts/facebook'
@@ -25,8 +27,17 @@ export default function Home() {
           <Article>          
             <ParaHighlight>ParaHighlight</ParaHighlight>
             <ParaLight>ParaLight</ParaLight>
-            <ParaNormal>ParaNormal</ParaNormal>
+            <ParaNormal>ParaNormal with gapsmall next</ParaNormal>
           </Article>
+          <GapSmall />
+    
+          <Heading2>Header small</Heading2>
+          <Article>          
+            <ParaLight>ParaLight</ParaLight>
+            <ParaNormal>ParaNormal with gapmedium next</ParaNormal>
+          </Article>
+          <GapMedium />
+          <ParaLight>ParaLight then this</ParaLight>
     
        </PageContainer>
     </>
