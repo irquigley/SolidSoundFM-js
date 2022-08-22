@@ -9,8 +9,10 @@ export default function BoxGroup({color},{children}) {
     ? color
     : COLORS[0];
   
+  const combinedClass = "boxes " + color;
+  
   return (
-      <div className={'boxes ${color}'}>
+      <div className={combinedClass}>
           {children}
       </div>
   )
