@@ -9,9 +9,9 @@ export default function Home() {
   return (
     <>
        <PageContainer title="Solid Sound FM">
-          <Header1>Header big</Header1>
+          <Heading1>Header big</Heading1>
           <FacebookPlugin />
-          <Header2>Header small</Header2>
+          <Heading2>Header small</Heading2>
        </PageContainer>
     </>
   )
