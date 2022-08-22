@@ -4,6 +4,7 @@ import ParaMega from '../components/ParaMega'
 import ParaHighlight from '../components/ParaHighlight'
 import ParaLight from '../components/ParaLight'
 import ParaNormal from '../components/ParaNormal'
+import Article from '../components/Article'
 
 import PageContainer from '../components/PageContainer'
 import FacebookPlugin from '../components/scripts/facebook'
@@ -16,11 +17,16 @@ export default function Home() {
        <PageContainer title="Solid Sound FM">
           <Heading1>Header big</Heading1>
           <FacebookPlugin />
-          <Heading2>Header small</Heading2>
+          
+          <Heading1>Header Other</Heading1>
           <ParaMega>Para Mega</ParaMega>
-          <ParaHighlight>ParaHighlight</ParaHighlight>
-          <ParaLight>ParaLight</ParaLight>
-          <ParaNormal>ParaNormal</ParaNormal>
+    
+          <Heading2>Header small</Heading2>
+          <Article>          
+            <ParaHighlight>ParaHighlight</ParaHighlight>
+            <ParaLight>ParaLight</ParaLight>
+            <ParaNormal>ParaNormal</ParaNormal>
+          </Article>
     
        </PageContainer>
     </>
