@@ -1,5 +1,5 @@
 export default function GapSmall() {
   return (
-      <div className="smallGao"></div>
+      <div className="smallGap"></div>
   )
 }
