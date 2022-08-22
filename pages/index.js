@@ -7,6 +7,8 @@ import ParaNormal from '../components/ParaNormal'
 import Article from '../components/Article'
 import GapSmall from '../components/GapSmall'
 import GapMedium from '../components/GapMedium'
+import BoxGroup from '../components/BoxGroup'
+import Box from '../components/Box'
 
 import PageContainer from '../components/PageContainer'
 import FacebookPlugin from '../components/scripts/facebook'
@@ -38,6 +40,14 @@ export default function Home() {
           </Article>
           <GapMedium />
           <ParaLight>ParaLight then this</ParaLight>
+    
+          <Heading2>Box group</Heading2>
+          <Article>
+            <ParaNormal>This is a boxgroup example with some text</ParaNormal>
+            <BoxGroup color="orange">
+              <Box title="one">Box One</Box>
+            </BoxGroup>
+          </Article>
     
        </PageContainer>
     </>
