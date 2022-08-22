@@ -1,9 +1,9 @@
 import Heading1 from '../components/Heading1'
 import Heading2 from '../components/Heading2'
-import ParaMega from '../components/ParagraphStyles'
-import ParaHighlight from '../components/ParagraphStyles'
-import ParaLight from '../components/ParagraphStyles'
-import ParaNormal from '../components/ParagraphStyles'
+import ParaMega from '../components/ParaMega'
+import ParaHighlight from '../components/ParaHighlight'
+import ParaLight from '../components/ParaLight'
+import ParaNormal from '../components/ParaNormal'
 
 import PageContainer from '../components/PageContainer'
 import FacebookPlugin from '../components/scripts/facebook'
