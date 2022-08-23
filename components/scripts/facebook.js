@@ -2,7 +2,7 @@ import Script from 'next/script'
 
 export default function FacebookPlugin({title, children}) {
   return (
-	<div>
+	<div className="facebookBox">
         <div id="fb-root"></div>
         <Script id="FacebookPlugin">
         {`
