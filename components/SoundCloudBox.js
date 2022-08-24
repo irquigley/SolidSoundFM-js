@@ -9,6 +9,7 @@ export default function SoundCloudBox({ src, height }) {
       scrolling="no"
       allow="autoplay"
       src={src}
+      frameBorder="none"
     ></iframe>
   );
 }
