@@ -5,6 +5,6 @@ export default function SoundCloudBox({link, height}) {
         height = 300;
       }
       return (
-          <iframe width="100%" height={height} scrolling="no" frameborder="no" allow="autoplay" src={link}></iframe>
+          <iframe width="100%" height={height} scrolling="no" allow="autoplay" src={link}></iframe>
       )
 }
