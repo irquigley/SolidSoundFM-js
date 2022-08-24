@@ -23,27 +23,27 @@ export default function Kushti() {
         <Heading1>Kushti</Heading1>
         <Article>
           <ParaNormal>
-            Kushti is a multi-genre 'hard rave' style DJ.
+            Kushti is a multi-genre &apos;hard rave&apos; style DJ.
             <br />
             <br />
-            An old school veteran of the early 90's UK rave scene who's been
-            DJing on and off for 20 years. He started out on some awful
-            home-tweaked decks, then progressed to playing Technics 1210's at
-            house parties. After experiencing the genesis of the early 90's
-            rave, he moved to the Netherlands in 1996 to peruse his love of
-            gabber. In the first decade of the new millennium things quietened
-            down. He moved back to the UK and then on to Ireland while he
-            focused on family.
+            An old school veteran of the early 90&apos;s UK rave scene
+            who&apos;s been DJing on and off for 20 years. He started out on
+            some awful home-tweaked decks, then progressed to playing Technics
+            1210&apos;s at house parties. After experiencing the genesis of the
+            early 90&apos;s rave, he moved to the Netherlands in 1996 to peruse
+            his love of gabber. In the first decade of the new millennium things
+            quietened down. He moved back to the UK and then on to Ireland while
+            he focused on family.
             <br />
             <br />
             In 2013 his passion for music was reignited when he began presenting
             Solid Sound radio show on Dublin South FM 93.9FM and was part of The
             Energy Collective crew until 2018. Like any old schooler, vinyl
             still has place in his heart, but these days he pushes buttons on a
-            laptop, with the occasional dabble on CDJ's. He sees digital
-            performance as the only way to experience so many different genre's
-            of music and keep things fresh. Aiming to make each major set he
-            plays as unique as possible.
+            laptop, with the occasional dabble on CDJ&apos;s. He sees digital
+            performance as the only way to experience so many different
+            genre&apos;s of music and keep things fresh. Aiming to make each
+            major set he plays as unique as possible.
             <br />
             <br />
           </ParaNormal>
@@ -66,7 +66,9 @@ export default function Kushti() {
           </Heading3>
           <img src="page/2002-2010.png" className="auto-shrink" />
 
-          <Heading3>2013, started Solid Sound (the original 'logo')</Heading3>
+          <Heading3>
+            2013, started Solid Sound (the original &apos;logo&apos;)
+          </Heading3>
           <img src="page/ss-logo-2013.jpg" className="auto-shrink" />
 
           <Heading3>
