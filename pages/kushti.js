@@ -10,6 +10,7 @@ import GapSmall from "../components/GapSmall";
 import GapMedium from "../components/GapMedium";
 import BoxGroup from "../components/BoxGroup";
 import Box from "../components/Box";
+import ImageExt from "../components/ImageExt";
 
 import PageContainer from "../components/PageContainer";
 import FacebookPlugin from "../components/scripts/facebook";
@@ -53,32 +54,32 @@ export default function Kushti() {
         <Heading2>History</Heading2>
         <Article>
           <Heading3>1973, born in UK</Heading3>
-          <img src="page/baby.png" className="auto-shrink" />
+          <ImageExt src="/page/baby.png" autoShrink="false" />
 
           <Heading3>1992, discovered rave</Heading3>
-          <img src="page/Rave92.jpg#" className="auto-shrink" />
+          <ImageExt src="/page/Rave92.jpg#" autoShrink="false" />
 
           <Heading3>1996, living in Holland</Heading3>
-          <img src="page/me-1210s.jpg" className="auto-shrink" />
+          <ImageExt src="/page/me-1210s.jpg" autoShrink="true" />
 
           <Heading3>
             2002-2010, moved to Ireland, got married, had kids
           </Heading3>
-          <img src="page/2002-2010.png" className="auto-shrink" />
+          <ImageExt src="/page/2002-2010.png" autoShrink="true" />
 
           <Heading3>
             2013, started Solid Sound (the original &apos;logo&apos;)
           </Heading3>
-          <img src="page/ss-logo-2013.jpg" className="auto-shrink" />
+          <ImageExt src="/page/ss-logo-2013.jpg" autoShrink="true" />
 
           <Heading3>
             Drinking Chateauneuf de Pape, on the doorstep of the chalet,
             Bangface Weekender 2015
           </Heading3>
-          <img src="page/me-bang-du-pape.jpg" className="auto-shrink" />
+          <ImageExt src="/page/me-bang-du-pape.jpg" autoShrink="true" />
 
           <Heading3>Rise of the Celts, Bangface Weekender 2018</Heading3>
-          <img src="page/me-bangface-2018.jpg" className="auto-shrink" />
+          <ImageExt src="/page/me-bangface-2018.jpg" autoShrink="true" />
         </Article>
         <GapSmall />
       </PageContainer>
