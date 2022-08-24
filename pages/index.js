@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Heading1 from '../components/Heading1'
 import Heading2 from '../components/Heading2'
 import ParaMega from '../components/ParaMega'
@@ -19,35 +20,25 @@ export default function Home() {
   return (
     <>
        <PageContainer title="Solid Sound FM">
-          <Heading1>Header big</Heading1>
+          <Heading1>What is it?</Heading1>
           <FacebookPlugin />
+          <ParaMega>Tuesday 9-11pm<br>Solid Sound is a radio-show and podcast broadcast / podcast every week</ParaMega>
+          <ParaLight>Established in 2013 and hosted by Kushti.</ParaLight>
+          <ParaNormal>
+          Every Tuesday on 93.9FM in Dublin, <link href="https://tunein.com/radio/Dublin-South-FM-939-s135815/">Tune-In</link> and <link href="http://www.DublinSouthFm.ie">Dublin South FM</link>.<br>You will be treated and greeted with some amazing random 'rave' music.<br><br>
+		      The main elements are: <link href="/interviews">Interviews</link>, <link href="/hard_rave">Music Releases</link>,  <link href="/guestmixes">Guest Mixes</link> and <link href="/newreleases">New Music Reviews</link>, as well as any other random things that happen as they happen.
+		      </ParaNormal>
+          <GapSmall />
           
-          <Heading1>Header Other</Heading1>
-          <ParaMega>Para Mega</ParaMega>
-    
-          <Heading2>Header small</Heading2>
-          <Article>          
-            <ParaHighlight>ParaHighlight</ParaHighlight>
-            <ParaLight>ParaLight</ParaLight>
-            <ParaNormal>ParaNormal with gapsmall next</ParaNormal>
-          </Article>
+          <Heading1>What is Hard Rave Music?</Heading1>
+          <ParaNormal>You'll get anything from; Jungle, Techno, Ghetto Funk, Hardcore techno, Garage, Drum & Bass, Electro house, Mutant Bass, Bounce, Gabber, Old school breakbeat hardcore, Breakcore and well just about anything. <br>
+          Always on the look-out for something NEW so fire me tunes or if you're a DJ, then join the guest mix crew and send me on a 30 minute mix. Don't ask "what should I play". Play the tunes you love and share that passion. It's community radio and we are the Dublin Rave Community!
+          </ParaNormal>
           <GapSmall />
     
-          <Heading2>Header small</Heading2>
-          <Article>          
-            <ParaLight>ParaLight</ParaLight>
-            <ParaNormal>ParaNormal with gapmedium next</ParaNormal>
-          </Article>
-          <GapMedium />
-          <ParaLight>ParaLight then this</ParaLight>
+          <Heading1>Most Recent Shows</Heading1>    
+          
     
-          <Heading2>Box group</Heading2>
-          <Article>
-            <ParaNormal>This is a boxgroup example with some text</ParaNormal>
-            <BoxGroup color="orange">
-              <Box title="one">Box One</Box>
-            </BoxGroup>
-          </Article>
     
        </PageContainer>
     </>
