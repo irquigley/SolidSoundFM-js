@@ -25,7 +25,7 @@ export default function Home() {
 	<ParaMega>Tuesday 9-11pm<br/>Solid Sound is a radio-show and podcast broadcast / podcast every week</ParaMega>
 	<ParaLight>Established in 2013 and hosted by Kushti.</ParaLight>
 	<ParaNormal>
-	Every Tuesday on 93.9FM in Dublin, <link href="https://tunein.com/radio/Dublin-South-FM-939-s135815/">Tune-In</link> and <link href="http://www.DublinSouthFm.ie">Dublin South FM</link>.<br/>You will be treated and greeted with some amazing random 'rave' music.<br/><br/>
+	Every Tuesday on 93.9FM in Dublin, <link href="https://tunein.com/radio/Dublin-South-FM-939-s135815/">Tune-In</link> and <link href="http://www.DublinSouthFm.ie">Dublin South FM</link>.<br/>You will be treated and greeted with some amazing random &apos;rave&apos; music.<br/><br/>
 	The main elements are: <link href="/interviews">Interviews</link>, <link href="/hard_rave">Music Releases</link>,  <link href="/guestmixes">Guest Mixes</link> and <link href="/newreleases">New Music Reviews</link>, as well as any other random things that happen as they happen.
 	</ParaNormal>
 	<GapSmall />
