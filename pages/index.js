@@ -21,7 +21,19 @@ export default function Home() {
     <>
       <PageContainer title="Solid Sound FM">
         <Heading1>What is it?</Heading1>
-               
+        <Heading1>What is Hard Rave Music?</Heading1>
+        <ParaNormal>
+          You&apos;ll get anything from; Jungle, Techno, Ghetto Funk, Hardcore
+          techno, Garage, Drum &amp; Bass, Electro house, Mutant Bass, Bounce,
+          Gabber, Old school breakbeat hardcore, Breakcore and well just about
+          anything. <br />
+          Always on the look-out for something NEW so fire me tunes or if
+          you&apos;re a DJ, then join the guest mix crew and send me on a 30
+          minute mix. Don&apos;t ask &quot;what should I play&quot;. Play the
+          tunes you love and share that passion. It&apos; community radio and we
+          are the Dublin Rave Community!
+        </ParaNormal>
+        <GapSmall />
       </PageContainer>
     </>
   );
