@@ -55,11 +55,8 @@ export default function do_guest_mix() {
               and goes through heavy compression before going to the antenna.
               Also, mixes are uploaded to SoundCloud and Hypeddit as mp3 in
               320kbps. It makes everyone&apos;s life easier if you please{" "}
-              <b>send as MP3</b>.{" "}
-              <span style="color:#777">
-                You can send me .wav or .flac if you want, and I&apos;ll convert
-                it.
-              </span>
+              <b>send as MP3</b>. You can send me .wav or .flac if you want, and
+              I&apos;ll convert it.
             </Box>
           </BoxGroup>
         </Article>
@@ -124,11 +121,7 @@ export default function do_guest_mix() {
             &quot;Send as Link&quot;. Add your files, click &quot;Transfer&quot;
             and then send me the Link to download.
             <br />
-            <img
-              style="margin-left:10px;"
-              src="/page/article/wetran.jpg"
-              className="auto-shrink"
-            />
+            <img src="/page/article/wetran.jpg" className="auto-shrink" />
           </ParaNormal>
         </Article>
 
