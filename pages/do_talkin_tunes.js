@@ -24,7 +24,7 @@ export default function Do_Talkin_Tunes() {
         <BoxGroup color="orange">
           <Box title="Discovery">
             People are interested in MUSIC. We want to hear what you think is
-            interesting, teach us what you know."
+            interesting, teach us what you know.
           </Box>
           <Box title="Chat">
             People want to hear all the side-bar chat. Any random topic that
@@ -34,8 +34,8 @@ export default function Do_Talkin_Tunes() {
 
         <Heading2>The Process</Heading2>
         <ParaNormal>
-          Here is the production process. Like most things, it's flexible and we
-          can figure out what works.
+          Here is the production process. Like most things, it@&apos;s flexible
+          and we can figure out what works.
         </ParaNormal>
       </PageContainer>
     </>
