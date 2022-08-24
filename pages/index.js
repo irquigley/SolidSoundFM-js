@@ -21,6 +21,32 @@ export default function Home() {
     <>
       <PageContainer title="Solid Sound FM">
         <Heading1>What is it?</Heading1>
+        <FacebookPlugin />
+        <ParaMega>
+          Tuesday 9-11pm
+          <br />
+          Solid Sound is a radio-show and podcast broadcast / podcast every week
+        </ParaMega>
+        <ParaLight>Established in 2013 and hosted by Kushti.</ParaLight>
+        <ParaNormal>
+          Every Tuesday on 93.9FM in Dublin,{" "}
+          <a to="https://tunein.com/radio/Dublin-South-FM-939-s135815/">
+            Tune-In
+          </a>{" "}
+          and
+          <a to="http://www.DublinSouthFm.ie">Dublin South FM</a>.<br />
+          You will be treated and greeted with some amazing random
+          &apos;rave&apos; music.
+          <br />
+          <br />
+          The main elements are: <a to="/interviews">Interviews</a>,{" "}
+          <a to="/hard_rave">Music Releases</a>,
+          <a to="/guestmixes">Guest Mixes</a> and{" "}
+          <a to="/newreleases">New Music Reviews</a>. As well as any other
+          random things that happen as they happen.
+        </ParaNormal>
+        <GapSmall />
+
         <Heading1>What is Hard Rave Music?</Heading1>
         <ParaNormal>
           You&apos;ll get anything from; Jungle, Techno, Ghetto Funk, Hardcore
