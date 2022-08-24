@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Heading1 from "../components/Heading1";
 import Heading2 from "../components/Heading2";
 import ParaMega from "../components/ParaMega";
@@ -33,20 +34,35 @@ export default function Home() {
         <ParaLight>Established in 2013 and hosted by Kushti.</ParaLight>
         <ParaNormal>
           Every Tuesday on 93.9FM in Dublin,{" "}
-          <a href="https://tunein.com/radio/Dublin-South-FM-939-s135815/">
-            Tune-In
-          </a>{" "}
+          <Link href="https://tunein.com/radio/Dublin-South-FM-939-s135815/">
+            <a>Tune-In</a>
+          </Link>
           and
-          <a href="http://www.DublinSouthFm.ie">Dublin South FM</a>.<br />
+          <Link href="http://www.DublinSouthFm.ie">
+            <a>Dublin South FM</a>
+          </Link>
+          .<br />
           You will be treated and greeted with some amazing random
           &apos;rave&apos; music.
           <br />
           <br />
-          The main elements are: <a href="/interviews">Interviews</a>,{" "}
-          <a href="/hard_rave">Music Releases</a>,
-          <a href="/guestmixes">Guest Mixes</a> and{" "}
-          <a href="/newreleases">New Music Reviews</a>. As well as any other
-          random things that happen as they happen.
+          The main elements are:{" "}
+          <Link href="/interviews">
+            <a>Interviews</a>
+          </Link>
+          ,{" "}
+          <Link href="/hard_rave">
+            <a>Music Releases</a>
+          </Link>
+          ,
+          <Link href="/guestmixes">
+            <a>Guest Mixes</a>
+          </Link>{" "}
+          and{" "}
+          <Link href="/newreleases">
+            <a>New Music Reviews</a>
+          </Link>
+          . As well as any other random things that happen as they happen.
         </ParaNormal>
         <GapSmall />
 
