@@ -120,9 +120,9 @@ export default function do_guest_mix() {
             <Link href="https://wetransfer.com">
               <a>WeTransfer.com</a>
             </Link>
-            . Select "free" option. Click the (...) and select &quot;Send as
-            Link&quot;. Add your files, click &quot;Transfer&quot; and then send
-            me the Link to download.
+            . Select &quot;free&quot; option. Click the (...) and select
+            &quot;Send as Link&quot;. Add your files, click &quot;Transfer&quot;
+            and then send me the Link to download.
             <br />
             <img
               style="margin-left:10px;"
@@ -143,7 +143,6 @@ export default function do_guest_mix() {
           <iframe
             className="youtube-iframe"
             src="https://www.youtube.com/embed/9c8u6RL6KcM"
-            frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           ></iframe>
           <br />
@@ -163,9 +162,7 @@ export default function do_guest_mix() {
           <iframe
             className="youtube-iframe"
             src="https://www.youtube.com/embed/6mXPx1CTAgI"
-            frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
           ></iframe>
           <br />
         </Article>
