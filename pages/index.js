@@ -30,21 +30,20 @@ export default function Home() {
         <ParaLight>Established in 2013 and hosted by Kushti.</ParaLight>
         <ParaNormal>
           Every Tuesday on 93.9FM in Dublin,{" "}
-          <link href="https://tunein.com/radio/Dublin-South-FM-939-s135815/">
+          <link to="https://tunein.com/radio/Dublin-South-FM-939-s135815/">
             Tune-In
           </link>{" "}
           and
-          <link href="http://www.DublinSouthFm.ie">Dublin South FM</link>.<br />
+          <link to="http://www.DublinSouthFm.ie">Dublin South FM</link>.<br />
           You will be treated and greeted with some amazing random
           &apos;rave&apos; music.
           <br />
           <br />
-          The main elements are: <link href="/interviews">
-            Interviews
-          </link>, <link href="/hard_rave">Music Releases</link>,
-          <link href="/guestmixes">Guest Mixes</link> and{" "}
-          <link href="/newreleases">New Music Reviews</link>. As well as any
-          other random things that happen as they happen.
+          The main elements are: <link to="/interviews">Interviews</link>,{" "}
+          <link to="/hard_rave">Music Releases</link>,
+          <link to="/guestmixes">Guest Mixes</link> and{" "}
+          <link to="/newreleases">New Music Reviews</link>. As well as any other
+          random things that happen as they happen.
         </ParaNormal>
         <GapSmall />
 
