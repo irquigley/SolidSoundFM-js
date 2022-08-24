@@ -21,47 +21,7 @@ export default function Home() {
     <>
       <PageContainer title="Solid Sound FM">
         <Heading1>What is it?</Heading1>
-        <FacebookPlugin />
-        <ParaMega>
-          Tuesday 9-11pm
-          <br />
-          Solid Sound is a radio-show and podcast broadcast / podcast every week
-        </ParaMega>
-        <ParaLight>Established in 2013 and hosted by Kushti.</ParaLight>
-        <ParaNormal>
-          Every Tuesday on 93.9FM in Dublin,{" "}
-          <link to="https://tunein.com/radio/Dublin-South-FM-939-s135815/">
-            Tune-In
-          </link>{" "}
-          and
-          <link to="http://www.DublinSouthFm.ie">Dublin South FM</link>.<br />
-          You will be treated and greeted with some amazing random
-          &apos;rave&apos; music.
-          <br />
-          <br />
-          The main elements are: <link to="/interviews">Interviews</link>,{" "}
-          <link to="/hard_rave">Music Releases</link>,
-          <link to="/guestmixes">Guest Mixes</link> and{" "}
-          <link to="/newreleases">New Music Reviews</link>. As well as any other
-          random things that happen as they happen.
-        </ParaNormal>
-        <GapSmall />
-
-        <Heading1>What is Hard Rave Music?</Heading1>
-        <ParaNormal>
-          You&apos;ll get anything from; Jungle, Techno, Ghetto Funk, Hardcore
-          techno, Garage, Drum &amp; Bass, Electro house, Mutant Bass, Bounce,
-          Gabber, Old school breakbeat hardcore, Breakcore and well just about
-          anything. <br />
-          Always on the look-out for something NEW so fire me tunes or if
-          you&apos;re a DJ, then join the guest mix crew and send me on a 30
-          minute mix. Don&apos;t ask &quot;what should I play&quot;. Play the
-          tunes you love and share that passion. It&apos; community radio and we
-          are the Dublin Rave Community!
-        </ParaNormal>
-        <GapSmall />
-
-        <Heading1>Most Recent Shows</Heading1>
+               
       </PageContainer>
     </>
   );
