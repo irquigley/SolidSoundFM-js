@@ -23,9 +23,12 @@ export default function Home() {
         <Heading1>What is it?</Heading1>
         <FacebookPlugin />
         <ParaMega>
-          Tuesday 9-11pm
-          <br />
-          Solid Sound is a radio-show and podcast broadcast / podcast every week
+          <b>
+            Tuesday 9-11pm
+            <br />
+            Solid Sound is a radio-show and podcast broadcast / podcast every
+            week.
+          </b>
         </ParaMega>
         <ParaLight>Established in 2013 and hosted by Kushti.</ParaLight>
         <ParaNormal>
