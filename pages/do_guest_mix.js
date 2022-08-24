@@ -1,0 +1,174 @@
+import Link from "next/link";
+import Heading1 from "../components/Heading1";
+import Heading2 from "../components/Heading2";
+import ParaMega from "../components/ParaMega";
+import ParaHighlight from "../components/ParaHighlight";
+import ParaLight from "../components/ParaLight";
+import ParaNormal from "../components/ParaNormal";
+import Article from "../components/Article";
+import GapSmall from "../components/GapSmall";
+import GapMedium from "../components/GapMedium";
+import BoxGroup from "../components/BoxGroup";
+import Box from "../components/Box";
+
+import PageContainer from "../components/PageContainer";
+import SoundCloudBox from "../components/SoundCloudBox";
+
+import styles from "../styles/Home.module.css";
+
+export default function do_guest_mix() {
+  return (
+    <>
+      <PageContainer title="Guest Mixes">
+        <Heading1>Bang out a Guest Mix</Heading1>
+        <ParaMega>Here are some guidelines</ParaMega>
+
+        <Heading2>WHAT TYPE OF MIX?</Heading2>
+        <Article>
+          <BoxGroup color="pink">
+            <Box title="GUEST MIX">
+              A DJ set, mixing music from various artists. <br />
+              These are <b>30 minutes</b> long (give or take a few minutes).
+            </Box>
+            <Box title="PRODUCER MIX">
+              A DJ set, mixed by a producer and contains their <b>Own Music</b>,
+              remixes or bootlegs. <br />
+              It can be <b>ANY</b> length between 25 - 90 minutes.
+            </Box>
+          </BoxGroup>
+        </Article>
+
+        <Heading2>RULES</Heading2>
+        <Article>
+          <BoxGroup color="orange">
+            <Box title="Exclusive">
+              Mixes need to be <b>Exclusive to Solid Sound</b> channel, and not
+              released or available anywhere else.
+            </Box>
+            <Box title="Genre">
+              That's totally up to you. Play from your heart, whatever you are
+              excited about. Please try to be original and enjoy yourself!
+            </Box>
+            <Box title="Tracklist">Would be nice, but entirely optional.</Box>
+            <Box title="320kbps">
+              Mixes are broadcast on FM radio, which is actually pretty grainy
+              and goes through heavy compression before going to the antenna.
+              Also, mixes are uploaded to SoundCloud and Hypeddit as mp3 in
+              320kbps. It makes everyone's life easier if you please{" "}
+              <b>send as MP3</b>.{" "}
+              <span style="color:#777">
+                You can send me .wav or .flac if you want, and I'll convert it.
+              </span>
+            </Box>
+          </BoxGroup>
+        </Article>
+
+        <ParaLight>
+          These are not hard rules written in stone! Talk to me if you need to.
+          The door is always open, and the list is operated on First come, First
+          played order. So when there are 4 mixes "in the bag", mixes submitted
+          after will go in the next guest mix show.
+        </ParaLight>
+
+        <Heading1>What are the benefits to me?</Heading1>
+        <Article>
+          <ParaNormal>
+            If I think the mix is up to standard (have yet to decline a mix),
+            then ...
+            <br />
+          </ParaNormal>
+          <BoxGroup color="orange">
+            <Box title="Hypeddit">
+              The MP3 is downloaded via Hypeddit, with a gate step of Follow
+              Your Account and Repost
+            </Box>
+            <Box title="FM Broadcast">
+              Your mix will be played on the radio on 93.9FM in Dublin, Ireland.
+            </Box>
+            <Box title="Playlist">
+              your mix will feature at the top of the Guest Mixes play list for
+              a number of weeks, along-side 100+ other mixes with combined
+              listen count of <b>100k+</b>
+            </Box>
+            <Box title="Mastering">
+              If your mix needs it, the mix will get a light touch mastering.
+              (see below)
+            </Box>
+            <Box title="Artwork">
+              using my ninja paint skills, I'll create a graphic for the mix
+            </Box>
+          </BoxGroup>
+        </Article>
+
+        <Heading2>Sending files </Heading2>
+        <Article>
+          <ParaNormal>
+            The two simplest options for sending files are
+            <br />
+            <br />
+            <b>SoundCloud</b>
+            <br />
+            Upload the mix to your SoundCloud as Private with Download Enabled,
+            then Share the sound and send me the link.
+            <br />
+            <br />
+            <b>We Transfer</b>
+            <br />
+            Go to{" "}
+            <Link href="https://wetransfer.com">
+              <a>WeTransfer.com</a>
+            </Link>
+            . Select "free" option. Click the (...) and select "Send as Link".
+            Add your files, click "Transfer" and then send me the Link to
+            download.
+            <br />
+            <img
+              style="margin-left:10px;"
+              src="/page/article/wetran.jpg"
+              class="auto-shrink"
+            />
+          </ParaNormal>
+        </Article>
+
+        <Heading2>Mastering a DJ mix</Heading2>
+        <Article>
+          <ParaNormal>
+            If your mix needs it, I can will &quot;Master&quot; your mix. Just
+            to give it a lift. If you do not want this, just let me know. A good
+            few mixes that are sent don't really need it. Here is a video I made
+            on the subject..
+          </ParaNormal>
+          <iframe
+            className="youtube-iframe"
+            src="https://www.youtube.com/embed/9c8u6RL6KcM"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <br />
+          <ParaNormal>
+            I don't claim to be a Sound Engineer or professional, but this is
+            what works for me.
+          </ParaNormal>
+        </Article>
+
+        <Heading2>Editing a DJ mix</Heading2>
+        <Article>
+          <ParaNormal>
+            Editing is cheating, or is it? Well if your 20 minutes into the mix
+            and fuck up, rewind and go again. If your not capable of editing,
+            send it on and I'll try to edit it for you.
+          </ParaNormal>
+          <iframe
+            className="youtube-iframe"
+            src="https://www.youtube.com/embed/6mXPx1CTAgI"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <br />
+        </Article>
+      </PageContainer>
+    </>
+  );
+}
