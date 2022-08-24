@@ -53,6 +53,11 @@ export default function Header({ title }) {
                   <a>MUSIC REVIEW</a>
                 </Link>
               </li>
+              <li>
+                <Link href="stuff">
+                  <a>STUFF</a>
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
