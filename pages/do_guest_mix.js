@@ -46,18 +46,19 @@ export default function do_guest_mix() {
               released or available anywhere else.
             </Box>
             <Box title="Genre">
-              That's totally up to you. Play from your heart, whatever you are
-              excited about. Please try to be original and enjoy yourself!
+              That&apos;s totally up to you. Play from your heart, whatever you
+              are excited about. Please try to be original and enjoy yourself!
             </Box>
             <Box title="Tracklist">Would be nice, but entirely optional.</Box>
             <Box title="320kbps">
               Mixes are broadcast on FM radio, which is actually pretty grainy
               and goes through heavy compression before going to the antenna.
               Also, mixes are uploaded to SoundCloud and Hypeddit as mp3 in
-              320kbps. It makes everyone's life easier if you please{" "}
+              320kbps. It makes everyone&apos;s life easier if you please{" "}
               <b>send as MP3</b>.{" "}
               <span style="color:#777">
-                You can send me .wav or .flac if you want, and I'll convert it.
+                You can send me .wav or .flac if you want, and I&apos;ll convert
+                it.
               </span>
             </Box>
           </BoxGroup>
@@ -66,8 +67,8 @@ export default function do_guest_mix() {
         <ParaLight>
           These are not hard rules written in stone! Talk to me if you need to.
           The door is always open, and the list is operated on First come, First
-          played order. So when there are 4 mixes "in the bag", mixes submitted
-          after will go in the next guest mix show.
+          played order. So when there are 4 mixes &quot;in the bag&quot;, mixes
+          submitted after will go in the next guest mix show.
         </ParaLight>
 
         <Heading1>What are the benefits to me?</Heading1>
@@ -95,7 +96,8 @@ export default function do_guest_mix() {
               (see below)
             </Box>
             <Box title="Artwork">
-              using my ninja paint skills, I'll create a graphic for the mix
+              using my ninja paint skills, I&apos;ll create a graphic for the
+              mix
             </Box>
           </BoxGroup>
         </Article>
@@ -118,14 +120,14 @@ export default function do_guest_mix() {
             <Link href="https://wetransfer.com">
               <a>WeTransfer.com</a>
             </Link>
-            . Select "free" option. Click the (...) and select "Send as Link".
-            Add your files, click "Transfer" and then send me the Link to
-            download.
+            . Select "free" option. Click the (...) and select &quot;Send as
+            Link&quot;. Add your files, click &quot;Transfer&quot; and then send
+            me the Link to download.
             <br />
             <img
               style="margin-left:10px;"
               src="/page/article/wetran.jpg"
-              class="auto-shrink"
+              className="auto-shrink"
             />
           </ParaNormal>
         </Article>
@@ -135,20 +137,19 @@ export default function do_guest_mix() {
           <ParaNormal>
             If your mix needs it, I can will &quot;Master&quot; your mix. Just
             to give it a lift. If you do not want this, just let me know. A good
-            few mixes that are sent don't really need it. Here is a video I made
-            on the subject..
+            few mixes that are sent don&apos;t really need it. Here is a video I
+            made on the subject..
           </ParaNormal>
           <iframe
             className="youtube-iframe"
             src="https://www.youtube.com/embed/9c8u6RL6KcM"
             frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
           ></iframe>
           <br />
           <ParaNormal>
-            I don't claim to be a Sound Engineer or professional, but this is
-            what works for me.
+            I don&apos;t claim to be a Sound Engineer or professional, but this
+            is what works for me.
           </ParaNormal>
         </Article>
 
@@ -157,7 +158,7 @@ export default function do_guest_mix() {
           <ParaNormal>
             Editing is cheating, or is it? Well if your 20 minutes into the mix
             and fuck up, rewind and go again. If your not capable of editing,
-            send it on and I'll try to edit it for you.
+            send it on and I&apos;ll try to edit it for you.
           </ParaNormal>
           <iframe
             className="youtube-iframe"

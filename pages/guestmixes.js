@@ -24,7 +24,7 @@ export default function GuestMixes() {
 
         <ParaNormal>
           No talking, no nonsense... just straight up musical vibes from some of
-          the greatest DJ's around.{" "}
+          the greatest DJ&apos;s around.{" "}
         </ParaNormal>
         <ParaLight>
           Do you want to{" "}
