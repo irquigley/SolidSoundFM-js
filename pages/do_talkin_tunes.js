@@ -84,7 +84,7 @@ export default function Do_Talkin_Tunes() {
           After the chat, I bring backing track, my voice and your voice into my
           DAW. Something magic happens and we have our Talking Tunes podcast.
         </ParaNormal>
-        <img src="page/tt-reaper.jpg" class="auto-shrink" />
+        <img src="page/tt-reaper.jpg" className="auto-shrink" />
 
         <Heading2>15 Tunes ... is an hour and a bit</Heading2>
         <Article>
