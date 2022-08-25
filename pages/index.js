@@ -16,55 +16,62 @@ import PageContainer from "../components/PageContainer";
 import FacebookPlugin from "../components/scripts/facebook";
 
 import styles from "../styles/Home.module.css";
+import ParaGrey from "../components/ParaGrey";
 
 export default function Home() {
   return (
     <>
       <PageContainer title="Solid Sound FM">
         <Heading1>What is it?</Heading1>
-        <FacebookPlugin />
-        <ParaMega>
-          <b>
-            Tuesday 9-11pm
-            <br />
-            Solid Sound is a radio-show and podcast broadcast / podcast every
-            week.
-          </b>
-        </ParaMega>
-        <ParaLight>Established in 2013 and hosted by Kushti.</ParaLight>
+
+        <ParaHighlight>
+          <b>Solid Sound is a weekly radio-show. FM Broadcast and Podcast.</b>
+        </ParaHighlight>
         <ParaNormal>
-          Every Tuesday on 93.9FM in Dublin,{" "}
+          Established in 2013 and hosted by Kushti.
+          <br />
+          Broadcast Every Tuesday, 9-11pm on 93.9FM in Dublin,{" "}
           <Link href="https://tunein.com/radio/Dublin-South-FM-939-s135815/">
             <a>Tune-In</a>
-          </Link>
-          and
+          </Link>{" "}
+          and{" "}
           <Link href="http://www.DublinSouthFm.ie">
             <a>Dublin South FM</a>
           </Link>
           .<br />
-          You will be treated and greeted with some amazing random
-          &apos;rave&apos; music.
+          Podcast Every week on{" "}
+          <Link href="https://soundcloud.com/solidsoundfm">
+            <a>Soundcloud.com</a>
+          </Link>
+        </ParaNormal>
+        <ParaGrey>
+          <b>Main elements are: </b>
           <br />
-          <br />
-          The main elements are:{" "}
+          &nbsp;&nbsp;
           <Link href="/interviews">
-            <a>Interviews</a>
+            <a>Talking Tunes</a>
           </Link>
-          ,{" "}
-          <Link href="/hard_rave">
-            <a>Music Releases</a>
-          </Link>
-          ,
+          , a podcast where we talk to people about music. <br />
+          &nbsp;&nbsp;
           <Link href="/guestmixes">
             <a>Guest Mixes</a>
-          </Link>{" "}
-          and{" "}
-          <Link href="/newreleases">
-            <a>New Music Reviews</a>
           </Link>
-          . As well as any other random things that happen as they happen.
-        </ParaNormal>
-        <GapSmall />
+          , over 200 DJ and producer mixes across the spectrum of hard rave
+          genres.
+          <br />
+          &nbsp;&nbsp;
+          <Link href="/hard_rave">
+            <a>Record Label</a>
+          </Link>
+          , releasing tunes under the &apos;Hard Rave Energy&apos; lable. <br />
+          &nbsp;&nbsp;
+          <Link href="/newreleases">
+            <a>Music Reviews</a>
+          </Link>
+          , a once a month round up of everything new and good that caught my
+          ear.
+        </ParaGrey>
+        <GapMedium />
 
         <Heading1>What is Hard Rave Music?</Heading1>
         <ParaNormal>
@@ -78,7 +85,8 @@ export default function Home() {
           tunes you love and share that passion. It&apos; community radio and we
           are the Dublin Rave Community!
         </ParaNormal>
-        <GapSmall />
+        <GapMedium />
+        <Heading2>Most Recent Shows...</Heading2>
         <SoundCloudBox
           height="350"
           src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/786476694&amp;color=%23444444&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"

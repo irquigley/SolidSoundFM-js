@@ -21,12 +21,12 @@ export default function NewReleases() {
       <PageContainer title="New Releases">
         <Heading1>Monthly New Releases show</Heading1>
 
-        <ParaMega>
+        <ParaHighlight>
           <b>
             You ain&apos;t tuning in for the mixing - you&apos;re tuning in for
             the tunes!
           </b>
-        </ParaMega>
+        </ParaHighlight>
 
         <ParaNormal>
           I&apos;m constantly clocking new tunes, being sent promo&apos;s and
