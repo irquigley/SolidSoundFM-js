@@ -10,8 +10,8 @@ import PageContainer from "../components/PageContainer";
 import SoundCloudBox from "../components/SoundCloudBox";
 
 import styles from "../styles/Home.module.css";
-import ParaGrey from "../components/ParaGrey";
 import Para from "../components/Para";
+import ImageExt from "../components/ImageExt";
 
 export default function do_guest_mix() {
   return (
@@ -62,7 +62,7 @@ export default function do_guest_mix() {
         </BoxGroup>
         <GapMedium />
 
-        <Heading1>What are the benefits to me?</Heading1>
+        <Heading1>What are the benefits?</Heading1>
         <Para color="grey">
           If I think the mix is up to standard (have yet to decline a mix), then
           ...
@@ -110,7 +110,7 @@ export default function do_guest_mix() {
           &quot;Send as Link&quot;. Add your files, click &quot;Transfer&quot;
           and then send me the Link to download.
           <br />
-          <img src="/page/wetran.jpg" className="auto-shrink" />
+          <ImageExt src="/page/wetran.jpg" autoShrink="true" />
         </Para>
 
         <Heading2>Mastering a DJ mix</Heading2>
