@@ -18,8 +18,7 @@ export default function stuff() {
       <PageContainer title="Solid Sound Stuff Page">
         <Heading1>Page of stuff!</Heading1>
 
-        <Para color="orange-bold">Orang bold</Para>
-        <Para color="grey">Grey</Para>
+        <Para color="grey">No stuff here pal!</Para>
       </PageContainer>
     </>
   );

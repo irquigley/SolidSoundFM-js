@@ -250,35 +250,6 @@ a:hover {
   color: #000;
 }
 
-/*  Removed during PARA refactor 
-.background-mega {
-  background: #2cf;
-  color: #fff;
-}
-
-.background-highlight {
-  background: #ffcf50;
-}
-
-.background-pale {
-  background: #f9f2d0;
-}
-
-.background-grey {
-  background: #eee;
-}
-
-.background-royalblue {
-  background: #6adade;
-  color: 000;
-}
-
-.background-lightblue {
-  background: #cdebf9;
-  color: 000;
-}
-*/
-
 .content h2 {
   color: #fff;
   background: #ffe773;
@@ -322,14 +293,6 @@ a:hover {
   color: #000;
 }
 
-.boxes a {
-  color: #28f;
-}
-
-.boxes a:hover {
-  background: #fff;
-}
-
 .content ul > li {
   margin: 4px 0px 4px 20px;
 }
@@ -342,53 +305,6 @@ h3.head-blue {
   background: #2cf;
   color: #fff;
   text-shadow: 1px 1px black, -1px -1px black, -1px 1px black, 1px -1px black;
-}
-
-.boxes {
-  text-align: center;
-}
-
-.boxes .box {
-  display: inline-block;
-  position: relative;
-  vertical-align: top;
-}
-
-.boxes .box .title {
-  padding: 8px 5px 5px 5px;
-  font-weight: bold;
-}
-
-.boxes .box .body {
-  padding: 10px;
-}
-
-.boxes.orange .box .title {
-  background: #ffcf50;
-}
-
-.boxes.orange .box .body {
-  border: 3px solid #ffcf50;
-  background: #fff4dd;
-}
-
-.boxes.yellow .box .title {
-  background: #ffe773;
-}
-
-.boxes.yellow .box .body {
-  border: 3px solid #ffe773;
-  background: #fff9e4;
-}
-
-.boxes.blue .box .title {
-  background: #17a6ff;
-  color: #000;
-}
-
-.boxes.blue .box .body {
-  border: 3px solid #17a6ff;
-  background: #eef5fa;
 }
 
 .css-hidden {
