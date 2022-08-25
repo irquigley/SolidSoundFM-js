@@ -9,11 +9,6 @@ export default function Header({ title }) {
         <meta name="description" content="Solid Sound FM" />
         <link rel="icon" href="/favicon.ico" />
         <link href="/site/main.css" rel="stylesheet" key="maincss" />
-        <link
-          href="https://fonts.googleapis.com/css?family=Boogaloo"
-          rel="stylesheet"
-          key="googlefont"
-        />
       </Head>
 
       <div className="header-wrap">
