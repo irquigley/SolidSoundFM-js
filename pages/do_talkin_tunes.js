@@ -6,7 +6,6 @@ import BoxGroup from "../components/BoxGroup";
 import Box from "../components/Box";
 
 import PageContainer from "../components/PageContainer";
-import FacebookPlugin from "../components/scripts/facebook";
 
 import styles from "../styles/Home.module.css";
 import Para from "../components/Para";
@@ -64,7 +63,11 @@ export default function Do_Talkin_Tunes() {
         <Para color="grey">
           Here&apos;s the technical set-up for when we record the interview.
         </Para>
-        <img src="page/talkingtunes-diagram.jpg" className="auto-shrink" />
+        <ImageExt
+          src="page/talkingtunes-diagram.jpg"
+          autoShrink="true"
+          alt="Talking Tunes Diagram"
+        />
 
         <Para color="grey">
           For your set-up, it would be great if you have Headphones and then
@@ -87,7 +90,11 @@ export default function Do_Talkin_Tunes() {
           After the chat, I bring backing track, my voice and your voice into my
           DAW. Something magic happens and we have our Talking Tunes podcast.
         </Para>
-        <img src="page/tt-reaper.jpg" className="auto-shrink" />
+        <ImageExt
+          src="page/tt-reaper.jpg"
+          autoShrink="true"
+          alt="Editting audio in Reaper"
+        />
 
         <GapMedium />
         <Heading2>15 Tunes ... is an hour and a bit</Heading2>

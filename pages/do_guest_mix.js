@@ -110,7 +110,11 @@ export default function do_guest_mix() {
           &quot;Send as Link&quot;. Add your files, click &quot;Transfer&quot;
           and then send me the Link to download.
           <br />
-          <ImageExt src="/page/wetran.jpg" autoShrink="true" />
+          <ImageExt
+            src="/page/wetran.jpg"
+            autoShrink="true"
+            alt="We Transfer dialog"
+          />
         </Para>
 
         <Heading2>Mastering a DJ mix</Heading2>
