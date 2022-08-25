@@ -1,5 +1,3 @@
-export default function ParaMega({children}) {
-  return (
-    <p className="background-mega">{children}</p>
-   )
+export default function ParaMegaX({ children }) {
+  return <p className="background-mega">{children}</p>;
 }

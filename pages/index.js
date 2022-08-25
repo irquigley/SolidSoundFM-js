@@ -1,10 +1,7 @@
 import Link from "next/link";
 import Heading1 from "../components/Heading1";
 import Heading2 from "../components/Heading2";
-import ParaMega from "../components/ParaMega";
-import ParaHighlight from "../components/ParaHighlight";
-import ParaLight from "../components/ParaLight";
-import ParaNormal from "../components/ParaNormal";
+import Para from "../components/Para";
 
 import GapSmall from "../components/GapSmall";
 import GapMedium from "../components/GapMedium";
@@ -16,7 +13,6 @@ import PageContainer from "../components/PageContainer";
 import FacebookPlugin from "../components/scripts/facebook";
 
 import styles from "../styles/Home.module.css";
-import ParaGrey from "../components/ParaGrey";
 
 export default function Home() {
   return (
@@ -24,10 +20,10 @@ export default function Home() {
       <PageContainer title="Solid Sound FM">
         <Heading1>What is it?</Heading1>
 
-        <ParaHighlight>
+        <Para color="orange-bold">
           <b>Solid Sound is a weekly radio-show. FM Broadcast and Podcast.</b>
-        </ParaHighlight>
-        <ParaNormal>
+        </Para>
+        <Para color="orange-light">
           Established in 2013 and hosted by Kushti.
           <br />
           Broadcast Every Tuesday, 9-11pm on 93.9FM in Dublin,{" "}
@@ -43,8 +39,8 @@ export default function Home() {
           <Link href="https://soundcloud.com/solidsoundfm">
             <a>Soundcloud.com</a>
           </Link>
-        </ParaNormal>
-        <ParaGrey>
+        </Para>
+        <Para color="grey">
           <b>Main elements are: </b>
           <br />
           &nbsp;&nbsp;
@@ -70,11 +66,11 @@ export default function Home() {
           </Link>
           , a once a month round up of everything new and good that caught my
           ear.
-        </ParaGrey>
+        </Para>
         <GapMedium />
 
         <Heading1>What is Hard Rave Music?</Heading1>
-        <ParaNormal>
+        <Para color="grey">
           You&apos;ll get anything from; Jungle, Techno, Ghetto Funk, Hardcore
           techno, Garage, Drum &amp; Bass, Electro house, Mutant Bass, Bounce,
           Gabber, Old school breakbeat hardcore, Breakcore and well just about
@@ -84,7 +80,7 @@ export default function Home() {
           minute mix. Don&apos;t ask &quot;what should I play&quot;. Play the
           tunes you love and share that passion. It&apos; community radio and we
           are the Dublin Rave Community!
-        </ParaNormal>
+        </Para>
         <GapMedium />
         <Heading2>Most Recent Shows...</Heading2>
         <SoundCloudBox

@@ -1,5 +1,3 @@
-export default function ParaNormal({children}) {
-  return (
-      <p className="background-pale">{children}</p>
-    )
+export default function ParaNormalX({ children }) {
+  return <p className="background-pale">{children}</p>;
 }

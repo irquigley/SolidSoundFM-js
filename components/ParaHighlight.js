@@ -1,5 +1,3 @@
-export default function ParaHighlight({children}) {
-  return (
-      <p className="background-highlight">{children}</p>
-    )
+export default function ParaHighlightX({ children }) {
+  return <p className="background-highlight">{children}</p>;
 }

@@ -250,6 +250,7 @@ a:hover {
   color: #000;
 }
 
+/*  Removed during PARA refactor 
 .background-mega {
   background: #2cf;
   color: #fff;
@@ -276,6 +277,7 @@ a:hover {
   background: #cdebf9;
   color: 000;
 }
+*/
 
 .content h2 {
   color: #fff;
@@ -320,13 +322,11 @@ a:hover {
   color: #000;
 }
 
-p a,
 .boxes a {
   color: #28f;
 }
 
-.boxes a:hover,
-p a:hover {
+.boxes a:hover {
   background: #fff;
 }
 

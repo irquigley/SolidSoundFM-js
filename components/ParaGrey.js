@@ -1,3 +1,3 @@
-export default function ParaGrey({ children }) {
+export default function ParaGreyX({ children }) {
   return <p className="background-grey">{children}</p>;
 }

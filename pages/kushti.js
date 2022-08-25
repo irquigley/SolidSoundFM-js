@@ -1,10 +1,7 @@
 import Heading1 from "../components/Heading1";
 import Heading2 from "../components/Heading2";
 import Heading3 from "../components/Heading3";
-import ParaMega from "../components/ParaMega";
-import ParaHighlight from "../components/ParaHighlight";
-import ParaLight from "../components/ParaLight";
-import ParaNormal from "../components/ParaNormal";
+import Para from "../components/Para";
 import GapSmall from "../components/GapSmall";
 import GapMedium from "../components/GapMedium";
 import BoxGroup from "../components/BoxGroup";
@@ -22,7 +19,7 @@ export default function Kushti() {
       <PageContainer title="Kushti">
         <Heading1>Kushti</Heading1>
 
-        <ParaNormal>
+        <Para color="orange-light">
           Kushti is a multi-genre &apos;hard rave&apos; style DJ.
           <br />
           <br />
@@ -46,7 +43,7 @@ export default function Kushti() {
           unique as possible.
           <br />
           <br />
-        </ParaNormal>
+        </Para>
 
         <GapSmall />
 

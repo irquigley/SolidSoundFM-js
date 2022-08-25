@@ -1,9 +1,5 @@
 import Heading1 from "../components/Heading1";
 import Heading2 from "../components/Heading2";
-import ParaMega from "../components/ParaMega";
-import ParaHighlight from "../components/ParaHighlight";
-import ParaGrey from "../components/ParaGrey";
-import ParaNormal from "../components/ParaNormal";
 import GapSmall from "../components/GapSmall";
 import GapMedium from "../components/GapMedium";
 import BoxGroup from "../components/BoxGroup";
@@ -13,7 +9,7 @@ import PageContainer from "../components/PageContainer";
 import FacebookPlugin from "../components/scripts/facebook";
 
 import styles from "../styles/Home.module.css";
-import ParaLight from "../components/ParaLight";
+import Para from "../components/Para";
 
 export default function Do_Talkin_Tunes() {
   return (
@@ -37,10 +33,10 @@ export default function Do_Talkin_Tunes() {
         <GapSmall />
 
         <Heading2>The 6 Step Process</Heading2>
-        <ParaGrey>
+        <Para color="grey">
           Here is the production process. Like most things, it&apos;s flexible
           and we can figure out what works.
-        </ParaGrey>
+        </Para>
 
         <BoxGroup color="orange">
           <Box title="Step 1. YOU">
@@ -65,17 +61,17 @@ export default function Do_Talkin_Tunes() {
         </BoxGroup>
         <GapSmall />
 
-        <ParaGrey>
+        <Para color="grey">
           Here&apos;s the technical set-up for when we record the interview.
-        </ParaGrey>
+        </Para>
         <img src="page/talkingtunes-diagram.jpg" className="auto-shrink" />
 
-        <ParaGrey>
+        <Para color="grey">
           For your set-up, it would be great if you have Headphones and then
           listen to the Backing Track on your computer at the same time as me,
           while we talk. If you have a microphone, that&apos;s great. Or a
           headset, if that works for you.
-        </ParaGrey>
+        </Para>
 
         <BoxGroup color="orange">
           <Box title="Step 5.">
@@ -87,15 +83,15 @@ export default function Do_Talkin_Tunes() {
           </Box>
         </BoxGroup>
 
-        <ParaGrey>
+        <Para color="grey">
           After the chat, I bring backing track, my voice and your voice into my
           DAW. Something magic happens and we have our Talking Tunes podcast.
-        </ParaGrey>
+        </Para>
         <img src="page/tt-reaper.jpg" className="auto-shrink" />
 
         <GapMedium />
         <Heading2>15 Tunes ... is an hour and a bit</Heading2>
-        <ParaLight>
+        <Para color="blue-light">
           We&apos;re aiming for something between an hour to an hour and thirty
           minutes, which is typically 15 tunes.
           <br />
@@ -104,7 +100,7 @@ export default function Do_Talkin_Tunes() {
           <br />
           If your tunes add up to more than 90 minutes, either cut them down
           yourself, or I will do that.
-        </ParaLight>
+        </Para>
         <BoxGroup color="blue">
           <Box title="Selection">
             Aim for 80% Rave/Electronic tunes and if you want throw in some
@@ -147,12 +143,12 @@ export default function Do_Talkin_Tunes() {
         </BoxGroup>
 
         <Heading2>How to Talk</Heading2>
-        <ParaGrey>
+        <Para color="grey">
           From a very early age, you probably started talking and never really
           gave it much thought. Which is normal. This section isn&apos;t
           important, but it&apos;s helpful to some people and I&apos;ve built up
           this &apos;hints&apos; guide over time
-        </ParaGrey>
+        </Para>
 
         <BoxGroup color="orange">
           <Box title="Shy?">

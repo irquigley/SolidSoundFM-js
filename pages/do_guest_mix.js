@@ -1,10 +1,6 @@
 import Link from "next/link";
 import Heading1 from "../components/Heading1";
 import Heading2 from "../components/Heading2";
-import ParaMega from "../components/ParaMega";
-import ParaHighlight from "../components/ParaHighlight";
-import ParaLight from "../components/ParaLight";
-import ParaNormal from "../components/ParaNormal";
 import GapSmall from "../components/GapSmall";
 import GapMedium from "../components/GapMedium";
 import BoxGroup from "../components/BoxGroup";
@@ -15,6 +11,7 @@ import SoundCloudBox from "../components/SoundCloudBox";
 
 import styles from "../styles/Home.module.css";
 import ParaGrey from "../components/ParaGrey";
+import Para from "../components/Para";
 
 export default function do_guest_mix() {
   return (
@@ -24,9 +21,9 @@ export default function do_guest_mix() {
         <GapSmall />
 
         <Heading2>WHAT TYPE OF MIX?</Heading2>
-        <ParaLight>
+        <Para color="blue-light">
           Is this going to be a Guest Mix or a Producer Mix?
-        </ParaLight>
+        </Para>
         <BoxGroup color="blue">
           <Box title="GUEST MIX">
             A DJ set, mixing music from various artists. <br />
@@ -39,12 +36,12 @@ export default function do_guest_mix() {
         </BoxGroup>
 
         <Heading2>RULES</Heading2>
-        <ParaGrey>
+        <Para color="grey">
           These are not hard rules written in stone! Talk to me if you need to.
           The door is always open, and the list is operated on First come, First
           played order. So when there are 4 mixes &quot;in the bag&quot;, mixes
           submitted after will go in the next guest mix show.
-        </ParaGrey>
+        </Para>
         <BoxGroup color="orange">
           <Box title="Exclusive">
             Mixes need to be <b>Exclusive to Solid Sound</b> channel, and not
@@ -66,10 +63,10 @@ export default function do_guest_mix() {
         <GapMedium />
 
         <Heading1>What are the benefits to me?</Heading1>
-        <ParaGrey>
+        <Para color="grey">
           If I think the mix is up to standard (have yet to decline a mix), then
           ...
-        </ParaGrey>
+        </Para>
         <BoxGroup color="yellow">
           <Box title="Hypeddit">
             The MP3 is downloaded via Hypeddit, with a gate step of Follow Your
@@ -93,7 +90,7 @@ export default function do_guest_mix() {
         </BoxGroup>
 
         <Heading2>Sending files </Heading2>
-        <ParaLight>
+        <Para color="blue-light">
           The two simplest options for sending files are
           <br />
           <br />
@@ -114,32 +111,32 @@ export default function do_guest_mix() {
           and then send me the Link to download.
           <br />
           <img src="/page/wetran.jpg" className="auto-shrink" />
-        </ParaLight>
+        </Para>
 
         <Heading2>Mastering a DJ mix</Heading2>
-        <ParaLight>
+        <Para color="blue-light">
           If your mix needs it, I can will &quot;Master&quot; your mix. Just to
           give it a lift. If you do not want this, just let me know. A good few
           mixes that are sent don&apos;t really need it. Here is a video I made
           on the subject..
-        </ParaLight>
+        </Para>
         <iframe
           className="youtube-iframe"
           src="https://www.youtube.com/embed/9c8u6RL6KcM"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         ></iframe>
         <br />
-        <ParaLight>
+        <Para color="blue-light">
           I don&apos;t claim to be a Sound Engineer or professional, but this is
           what works for me.
-        </ParaLight>
+        </Para>
 
         <Heading2>Editing a DJ mix</Heading2>
-        <ParaLight>
+        <Para color="blue-light">
           Editing is cheating, or is it? Well if your 20 minutes into the mix
           and fuck up, rewind and go again. If your not capable of editing, send
           it on and I&apos;ll try to edit it for you.
-        </ParaLight>
+        </Para>
         <iframe
           className="youtube-iframe"
           src="https://www.youtube.com/embed/6mXPx1CTAgI"
