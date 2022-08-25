@@ -4,6 +4,7 @@ import GapSmall from "../components/GapSmall";
 import GapMedium from "../components/GapMedium";
 import BoxGroup from "../components/BoxGroup";
 import Box from "../components/Box";
+import ImageExt from "../components/ImageExt";
 
 import PageContainer from "../components/PageContainer";
 
