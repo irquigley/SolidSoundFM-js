@@ -5,7 +5,6 @@ import ParaMega from "../components/ParaMega";
 import ParaHighlight from "../components/ParaHighlight";
 import ParaLight from "../components/ParaLight";
 import ParaNormal from "../components/ParaNormal";
-import Article from "../components/Article";
 import GapSmall from "../components/GapSmall";
 import GapMedium from "../components/GapMedium";
 import BoxGroup from "../components/BoxGroup";
@@ -24,42 +23,37 @@ export default function do_guest_mix() {
         <ParaMega>Here are some guidelines</ParaMega>
 
         <Heading2>WHAT TYPE OF MIX?</Heading2>
-        <Article>
-          <BoxGroup color="pink">
-            <Box title="GUEST MIX">
-              A DJ set, mixing music from various artists. <br />
-              These are <b>30 minutes</b> long (give or take a few minutes).
-            </Box>
-            <Box title="PRODUCER MIX">
-              A DJ set, mixed by a producer and contains their <b>Own Music</b>,
-              remixes or bootlegs. <br />
-              It can be <b>ANY</b> length between 25 - 90 minutes.
-            </Box>
-          </BoxGroup>
-        </Article>
+        <BoxGroup color="pink">
+          <Box title="GUEST MIX">
+            A DJ set, mixing music from various artists. <br />
+            These are <b>30 minutes</b> long (give or take a few minutes).
+          </Box>
+          <Box title="PRODUCER MIX">
+            A DJ set, mixed by a producer and contains their <b>Own Music</b>,
+            remixes or bootlegs. <br />
+            It can be <b>ANY</b> length between 25 - 90 minutes.
+          </Box>
+        </BoxGroup>
 
         <Heading2>RULES</Heading2>
-        <Article>
-          <BoxGroup color="orange">
-            <Box title="Exclusive">
-              Mixes need to be <b>Exclusive to Solid Sound</b> channel, and not
-              released or available anywhere else.
-            </Box>
-            <Box title="Genre">
-              That&apos;s totally up to you. Play from your heart, whatever you
-              are excited about. Please try to be original and enjoy yourself!
-            </Box>
-            <Box title="Tracklist">Would be nice, but entirely optional.</Box>
-            <Box title="320kbps">
-              Mixes are broadcast on FM radio, which is actually pretty grainy
-              and goes through heavy compression before going to the antenna.
-              Also, mixes are uploaded to SoundCloud and Hypeddit as mp3 in
-              320kbps. It makes everyone&apos;s life easier if you please{" "}
-              <b>send as MP3</b>. You can send me .wav or .flac if you want, and
-              I&apos;ll convert it.
-            </Box>
-          </BoxGroup>
-        </Article>
+        <BoxGroup color="orange">
+          <Box title="Exclusive">
+            Mixes need to be <b>Exclusive to Solid Sound</b> channel, and not
+            released or available anywhere else.
+          </Box>
+          <Box title="Genre">
+            That&apos;s totally up to you. Play from your heart, whatever you
+            are excited about. Please try to be original and enjoy yourself!
+          </Box>
+          <Box title="Tracklist">Would be nice, but entirely optional.</Box>
+          <Box title="320kbps">
+            Mixes are broadcast on FM radio, which is actually pretty grainy and
+            goes through heavy compression before going to the antenna. Also,
+            mixes are uploaded to SoundCloud and Hypeddit as mp3 in 320kbps. It
+            makes everyone&apos;s life easier if you please <b>send as MP3</b>.
+            You can send me .wav or .flac if you want, and I&apos;ll convert it.
+          </Box>
+        </BoxGroup>
 
         <ParaLight>
           These are not hard rules written in stone! Talk to me if you need to.
@@ -69,96 +63,91 @@ export default function do_guest_mix() {
         </ParaLight>
 
         <Heading1>What are the benefits to me?</Heading1>
-        <Article>
-          <ParaNormal>
-            If I think the mix is up to standard (have yet to decline a mix),
-            then ...
-            <br />
-          </ParaNormal>
-          <BoxGroup color="orange">
-            <Box title="Hypeddit">
-              The MP3 is downloaded via Hypeddit, with a gate step of Follow
-              Your Account and Repost
-            </Box>
-            <Box title="FM Broadcast">
-              Your mix will be played on the radio on 93.9FM in Dublin, Ireland.
-            </Box>
-            <Box title="Playlist">
-              your mix will feature at the top of the Guest Mixes play list for
-              a number of weeks, along-side 100+ other mixes with combined
-              listen count of <b>100k+</b>
-            </Box>
-            <Box title="Mastering">
-              If your mix needs it, the mix will get a light touch mastering.
-              (see below)
-            </Box>
-            <Box title="Artwork">
-              using my ninja paint skills, I&apos;ll create a graphic for the
-              mix
-            </Box>
-          </BoxGroup>
-        </Article>
+
+        <ParaNormal>
+          If I think the mix is up to standard (have yet to decline a mix), then
+          ...
+          <br />
+        </ParaNormal>
+        <BoxGroup color="orange">
+          <Box title="Hypeddit">
+            The MP3 is downloaded via Hypeddit, with a gate step of Follow Your
+            Account and Repost
+          </Box>
+          <Box title="FM Broadcast">
+            Your mix will be played on the radio on 93.9FM in Dublin, Ireland.
+          </Box>
+          <Box title="Playlist">
+            your mix will feature at the top of the Guest Mixes play list for a
+            number of weeks, along-side 100+ other mixes with combined listen
+            count of <b>100k+</b>
+          </Box>
+          <Box title="Mastering">
+            If your mix needs it, the mix will get a light touch mastering. (see
+            below)
+          </Box>
+          <Box title="Artwork">
+            using my ninja paint skills, I&apos;ll create a graphic for the mix
+          </Box>
+        </BoxGroup>
 
         <Heading2>Sending files </Heading2>
-        <Article>
-          <ParaNormal>
-            The two simplest options for sending files are
-            <br />
-            <br />
-            <b>SoundCloud</b>
-            <br />
-            Upload the mix to your SoundCloud as Private with Download Enabled,
-            then Share the sound and send me the link.
-            <br />
-            <br />
-            <b>We Transfer</b>
-            <br />
-            Go to{" "}
-            <Link href="https://wetransfer.com">
-              <a>WeTransfer.com</a>
-            </Link>
-            . Select &quot;free&quot; option. Click the (...) and select
-            &quot;Send as Link&quot;. Add your files, click &quot;Transfer&quot;
-            and then send me the Link to download.
-            <br />
-            <img src="/page/article/wetran.jpg" className="auto-shrink" />
-          </ParaNormal>
-        </Article>
+
+        <ParaNormal>
+          The two simplest options for sending files are
+          <br />
+          <br />
+          <b>SoundCloud</b>
+          <br />
+          Upload the mix to your SoundCloud as Private with Download Enabled,
+          then Share the sound and send me the link.
+          <br />
+          <br />
+          <b>We Transfer</b>
+          <br />
+          Go to{" "}
+          <Link href="https://wetransfer.com">
+            <a>WeTransfer.com</a>
+          </Link>
+          . Select &quot;free&quot; option. Click the (...) and select
+          &quot;Send as Link&quot;. Add your files, click &quot;Transfer&quot;
+          and then send me the Link to download.
+          <br />
+          <img src="/page/article/wetran.jpg" className="auto-shrink" />
+        </ParaNormal>
 
         <Heading2>Mastering a DJ mix</Heading2>
-        <Article>
-          <ParaNormal>
-            If your mix needs it, I can will &quot;Master&quot; your mix. Just
-            to give it a lift. If you do not want this, just let me know. A good
-            few mixes that are sent don&apos;t really need it. Here is a video I
-            made on the subject..
-          </ParaNormal>
-          <iframe
-            className="youtube-iframe"
-            src="https://www.youtube.com/embed/9c8u6RL6KcM"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          ></iframe>
-          <br />
-          <ParaNormal>
-            I don&apos;t claim to be a Sound Engineer or professional, but this
-            is what works for me.
-          </ParaNormal>
-        </Article>
+
+        <ParaNormal>
+          If your mix needs it, I can will &quot;Master&quot; your mix. Just to
+          give it a lift. If you do not want this, just let me know. A good few
+          mixes that are sent don&apos;t really need it. Here is a video I made
+          on the subject..
+        </ParaNormal>
+        <iframe
+          className="youtube-iframe"
+          src="https://www.youtube.com/embed/9c8u6RL6KcM"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        ></iframe>
+        <br />
+        <ParaNormal>
+          I don&apos;t claim to be a Sound Engineer or professional, but this is
+          what works for me.
+        </ParaNormal>
 
         <Heading2>Editing a DJ mix</Heading2>
-        <Article>
-          <ParaNormal>
-            Editing is cheating, or is it? Well if your 20 minutes into the mix
-            and fuck up, rewind and go again. If your not capable of editing,
-            send it on and I&apos;ll try to edit it for you.
-          </ParaNormal>
-          <iframe
-            className="youtube-iframe"
-            src="https://www.youtube.com/embed/6mXPx1CTAgI"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          ></iframe>
-          <br />
-        </Article>
+
+        <ParaNormal>
+          Editing is cheating, or is it? Well if your 20 minutes into the mix
+          and fuck up, rewind and go again. If your not capable of editing, send
+          it on and I&apos;ll try to edit it for you.
+        </ParaNormal>
+        <iframe
+          className="youtube-iframe"
+          src="https://www.youtube.com/embed/6mXPx1CTAgI"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        ></iframe>
+        <br />
       </PageContainer>
     </>
   );

@@ -5,7 +5,7 @@ import ParaMega from "../components/ParaMega";
 import ParaHighlight from "../components/ParaHighlight";
 import ParaLight from "../components/ParaLight";
 import ParaNormal from "../components/ParaNormal";
-import Article from "../components/Article";
+
 import GapSmall from "../components/GapSmall";
 import GapMedium from "../components/GapMedium";
 import BoxGroup from "../components/BoxGroup";

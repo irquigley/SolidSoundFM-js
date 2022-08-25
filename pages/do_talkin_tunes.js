@@ -4,7 +4,6 @@ import ParaMega from "../components/ParaMega";
 import ParaHighlight from "../components/ParaHighlight";
 import ParaLight from "../components/ParaLight";
 import ParaNormal from "../components/ParaNormal";
-import Article from "../components/Article";
 import GapSmall from "../components/GapSmall";
 import GapMedium from "../components/GapMedium";
 import BoxGroup from "../components/BoxGroup";
@@ -87,58 +86,57 @@ export default function Do_Talkin_Tunes() {
         <img src="page/tt-reaper.jpg" className="auto-shrink" />
 
         <Heading2>15 Tunes ... is an hour and a bit</Heading2>
-        <Article>
-          <ParaNormal>
-            We&apos;re aiming for something between an hour to an hour and
-            thirty minutes, which is typically 15 tunes.
-            <br />
-            If all your are short and add up to less than an hour, feel free to
-            add more.
-            <br />
-            If your tunes add up to more than 90 minutes, either cut them down
-            yourself, or I will do that.
-          </ParaNormal>
-          <BoxGroup color="pink">
-            <Box title="Selection">
-              Aim for 80% Rave/Electronic tunes and if you want throw in some
-              curveballs, jazz, classical, metal, folk, whatever, go for it.
-            </Box>
-            <Box title="Max Two">
-              Maximum two tracks &quot;playing this one for someone else&quot;
-              or &quot;reminds me of person&quot; tunes.{" "}
-            </Box>
-            <Box title="Max Two">
-              Maximum two tracks &quot;first track I played as a DJ&quot; or
-              &quot;first tune I remember as a kid&quot; or &quot;when I was in
-              a phase of my life&quot;
-            </Box>
-            <Box title="Random">
-              Pick some tracks that are; under-rated, best song ever, genre
-              changing.
-            </Box>
-            <Box title="You Like It">
-              Select tunes YOU like, and be prepared to discuss the artistic
-              merit of them. Why did you pick this one? Some people say to me
-              &quot;I know you don&apos;t like xyz so I didn&apos;t pick
-              that&quot;. Pick what you like.
-            </Box>
-            <Box title="Send MP3Z">
-              If you can send me the digital files for your selection, that
-              would be super helpful! Use WeTransfer.com for example
-            </Box>
-            <Box title="Notes">
-              Do a little background research. People love hearing nuggets of
-              information. I&apos;ll do the same and share my notes. <br />
-              <font size="-1">
-                33:10 Rachmaninoff - Rhapsody on a Theme of Paganini, Op.43
-                Variation XVIII (1934) Russian [1873 - 1943] Following the
-                Russian Revolution, Rachmaninoff and his family left Russia.
-                They settled in New York City in 1918. Rachmaninoff wrote the
-                work at his summer home, in Switzerland
-              </font>
-            </Box>
-          </BoxGroup>
-        </Article>
+
+        <ParaNormal>
+          We&apos;re aiming for something between an hour to an hour and thirty
+          minutes, which is typically 15 tunes.
+          <br />
+          If all your are short and add up to less than an hour, feel free to
+          add more.
+          <br />
+          If your tunes add up to more than 90 minutes, either cut them down
+          yourself, or I will do that.
+        </ParaNormal>
+        <BoxGroup color="pink">
+          <Box title="Selection">
+            Aim for 80% Rave/Electronic tunes and if you want throw in some
+            curveballs, jazz, classical, metal, folk, whatever, go for it.
+          </Box>
+          <Box title="Max Two">
+            Maximum two tracks &quot;playing this one for someone else&quot; or
+            &quot;reminds me of person&quot; tunes.{" "}
+          </Box>
+          <Box title="Max Two">
+            Maximum two tracks &quot;first track I played as a DJ&quot; or
+            &quot;first tune I remember as a kid&quot; or &quot;when I was in a
+            phase of my life&quot;
+          </Box>
+          <Box title="Random">
+            Pick some tracks that are; under-rated, best song ever, genre
+            changing.
+          </Box>
+          <Box title="You Like It">
+            Select tunes YOU like, and be prepared to discuss the artistic merit
+            of them. Why did you pick this one? Some people say to me &quot;I
+            know you don&apos;t like xyz so I didn&apos;t pick that&quot;. Pick
+            what you like.
+          </Box>
+          <Box title="Send MP3Z">
+            If you can send me the digital files for your selection, that would
+            be super helpful! Use WeTransfer.com for example
+          </Box>
+          <Box title="Notes">
+            Do a little background research. People love hearing nuggets of
+            information. I&apos;ll do the same and share my notes. <br />
+            <font size="-1">
+              33:10 Rachmaninoff - Rhapsody on a Theme of Paganini, Op.43
+              Variation XVIII (1934) Russian [1873 - 1943] Following the Russian
+              Revolution, Rachmaninoff and his family left Russia. They settled
+              in New York City in 1918. Rachmaninoff wrote the work at his
+              summer home, in Switzerland
+            </font>
+          </Box>
+        </BoxGroup>
 
         <Heading2>How to Talk</Heading2>
         <ParaNormal>
