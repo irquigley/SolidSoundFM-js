@@ -18,22 +18,26 @@ export default function Do_Talkin_Tunes() {
   return (
     <>
       <PageContainer title="How to: Talking Tunes">
-        <Heading1>Interviews are boring!</Heading1>
-
+        <Heading1>Talking Tunes</Heading1>
+        <GapSmall />
         <BoxGroup color="orange">
           <Box title="Discovery">
-            People are interested in MUSIC. We want to hear what you think is
-            interesting, teach us what you know.
+            People are interested in Music.
+            <br />
+            We want to hear what you think is interesting, teach us what you
+            know.
           </Box>
           <Box title="Chat">
-            People want to hear all the side-bar chat. Any random topic that
-            comes up in natural or unnatural conversation.
+            People want to hear some banter.
+            <br /> Any non-music random topic that comes up in natural
+            conversation.
           </Box>
         </BoxGroup>
+        <GapSmall />
 
-        <Heading2>The Process</Heading2>
+        <Heading2>The 6 Step Process</Heading2>
         <ParaNormal>
-          Here is the production process. Like most things, it@&apos;s flexible
+          Here is the production process. Like most things, it&apos;s flexible
           and we can figure out what works.
         </ParaNormal>
 
@@ -59,7 +63,10 @@ export default function Do_Talkin_Tunes() {
             headphones and mic set-up.
           </Box>
         </BoxGroup>
-
+        <GapSmall />
+        <ParaNormal>
+          Here&apos;s the technical set-up for when we record the interview.
+        </ParaNormal>
         <img src="page/talkingtunes-diagram.jpg" className="auto-shrink" />
 
         <ParaNormal>
@@ -85,8 +92,8 @@ export default function Do_Talkin_Tunes() {
         </ParaNormal>
         <img src="page/tt-reaper.jpg" className="auto-shrink" />
 
+        <GapMedium />
         <Heading2>15 Tunes ... is an hour and a bit</Heading2>
-
         <ParaNormal>
           We&apos;re aiming for something between an hour to an hour and thirty
           minutes, which is typically 15 tunes.
