@@ -1,4 +1,4 @@
-const COLORS = ["orange", "pink"];
+const COLORS = ["orange", "yellow", "blue"];
 
 export default function BoxGroup({ color, children }) {
   const checkColor = COLORS.includes(color) ? color : COLORS[0];

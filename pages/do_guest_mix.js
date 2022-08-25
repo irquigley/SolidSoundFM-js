@@ -14,28 +14,37 @@ import PageContainer from "../components/PageContainer";
 import SoundCloudBox from "../components/SoundCloudBox";
 
 import styles from "../styles/Home.module.css";
+import ParaGrey from "../components/ParaGrey";
 
 export default function do_guest_mix() {
   return (
     <>
       <PageContainer title="Guest Mixes">
-        <Heading1>Bang out a Guest Mix</Heading1>
-        <ParaMega>Here are some guidelines</ParaMega>
+        <Heading1>Recording a Guest Mix</Heading1>
+        <GapSmall />
 
         <Heading2>WHAT TYPE OF MIX?</Heading2>
-        <BoxGroup color="pink">
+        <ParaLight>
+          Is this going to be a Guest Mix or a Producer Mix?
+        </ParaLight>
+        <BoxGroup color="blue">
           <Box title="GUEST MIX">
             A DJ set, mixing music from various artists. <br />
             These are <b>30 minutes</b> long (give or take a few minutes).
           </Box>
           <Box title="PRODUCER MIX">
-            A DJ set, mixed by a producer and contains their <b>Own Music</b>,
-            remixes or bootlegs. <br />
+            Artist&apos;s <b>Own Music</b>, remixes or bootlegs. <br />
             It can be <b>ANY</b> length between 25 - 90 minutes.
           </Box>
         </BoxGroup>
 
         <Heading2>RULES</Heading2>
+        <ParaGrey>
+          These are not hard rules written in stone! Talk to me if you need to.
+          The door is always open, and the list is operated on First come, First
+          played order. So when there are 4 mixes &quot;in the bag&quot;, mixes
+          submitted after will go in the next guest mix show.
+        </ParaGrey>
         <BoxGroup color="orange">
           <Box title="Exclusive">
             Mixes need to be <b>Exclusive to Solid Sound</b> channel, and not
@@ -54,22 +63,14 @@ export default function do_guest_mix() {
             You can send me .wav or .flac if you want, and I&apos;ll convert it.
           </Box>
         </BoxGroup>
-
-        <ParaLight>
-          These are not hard rules written in stone! Talk to me if you need to.
-          The door is always open, and the list is operated on First come, First
-          played order. So when there are 4 mixes &quot;in the bag&quot;, mixes
-          submitted after will go in the next guest mix show.
-        </ParaLight>
+        <GapMedium />
 
         <Heading1>What are the benefits to me?</Heading1>
-
-        <ParaNormal>
+        <ParaGrey>
           If I think the mix is up to standard (have yet to decline a mix), then
           ...
-          <br />
-        </ParaNormal>
-        <BoxGroup color="orange">
+        </ParaGrey>
+        <BoxGroup color="yellow">
           <Box title="Hypeddit">
             The MP3 is downloaded via Hypeddit, with a gate step of Follow Your
             Account and Repost
@@ -92,8 +93,7 @@ export default function do_guest_mix() {
         </BoxGroup>
 
         <Heading2>Sending files </Heading2>
-
-        <ParaNormal>
+        <ParaLight>
           The two simplest options for sending files are
           <br />
           <br />
@@ -113,35 +113,33 @@ export default function do_guest_mix() {
           &quot;Send as Link&quot;. Add your files, click &quot;Transfer&quot;
           and then send me the Link to download.
           <br />
-          <img src="/page/article/wetran.jpg" className="auto-shrink" />
-        </ParaNormal>
+          <img src="/page/wetran.jpg" className="auto-shrink" />
+        </ParaLight>
 
         <Heading2>Mastering a DJ mix</Heading2>
-
-        <ParaNormal>
+        <ParaLight>
           If your mix needs it, I can will &quot;Master&quot; your mix. Just to
           give it a lift. If you do not want this, just let me know. A good few
           mixes that are sent don&apos;t really need it. Here is a video I made
           on the subject..
-        </ParaNormal>
+        </ParaLight>
         <iframe
           className="youtube-iframe"
           src="https://www.youtube.com/embed/9c8u6RL6KcM"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         ></iframe>
         <br />
-        <ParaNormal>
+        <ParaLight>
           I don&apos;t claim to be a Sound Engineer or professional, but this is
           what works for me.
-        </ParaNormal>
+        </ParaLight>
 
         <Heading2>Editing a DJ mix</Heading2>
-
-        <ParaNormal>
+        <ParaLight>
           Editing is cheating, or is it? Well if your 20 minutes into the mix
           and fuck up, rewind and go again. If your not capable of editing, send
           it on and I&apos;ll try to edit it for you.
-        </ParaNormal>
+        </ParaLight>
         <iframe
           className="youtube-iframe"
           src="https://www.youtube.com/embed/6mXPx1CTAgI"
