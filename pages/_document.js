@@ -5,7 +5,7 @@ export default function Document() {
     <Html>
       <Head>
         <link
-          href="https://fonts.googleapis.com/css?family=Boogaloo"
+          href="https://fonts.googleapis.com/css?family=Boogaloo&display=optional"
           rel="stylesheet"
           key="googlefont"
         />
