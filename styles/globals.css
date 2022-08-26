@@ -1,16 +1,58 @@
-html,
-body {
+* {
+  font-family: sans-serif;
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: #474b4c url("/site/continuous.jpg");
+}
+
+body > div {
+  position: relative;
+  min-width: 380px;
+  max-width: 950px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+p,
+span,
+div,
+a {
+  font-family: "Interstate", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+  color: #242d38;
+}
+
+h1,
+h2 {
+  font-family: "Boogaloo", serif;
+}
+
+h3 {
+  font-family: "Boogaloo", serif;
+  color: #000;
+  margin-top: 5px;
+  letter-spacing: 0.1em;
+  font-size: 30px;
+  padding-top: 10px;
+}
+
+h4 {
+  color: #000;
+  margin-top: 20px;
 }
 
 a {
-  color: inherit;
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+a:hover {
+  text-decoration: underline;
 }

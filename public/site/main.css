@@ -1,148 +1,5 @@
-* {
-  font-family: sans-serif;
-  padding: 0;
-  margin: 0;
-}
-
-html,
-body {
-  height: 100%;
-}
-
-body {
-  background: #474b4c url("/site/continuous.jpg");
-}
-
-body > div {
-  position: relative;
-  min-width: 380px;
-  max-width: 950px;
-  margin: 0 auto;
-  height: 100%;
-}
-
-p,
-span,
-div,
-a {
-  font-family: "Interstate", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
-  color: #242d38;
-}
-
-h1,
-h2,
-h2 a {
-  font-family: "Boogaloo", serif;
-}
-
-h3 {
-  font-family: "Boogaloo", serif;
-  color: #000;
-  margin-top: 5px;
-  letter-spacing: 0.08em;
-  font-size: 30px;
-  padding-top: 10px;
-}
-
-h4 {
-  color: #000;
-  margin-top: 20px;
-}
-
-a {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-/* --- Header & Menu ------------------*/
-.header h1 span {
-  display: none;
-}
-
-.header-wrap {
-  background: #00000040;
-}
-
-.menu ul {
-  display: block;
-  list-style-type: none;
-}
-
-.menu ul li {
-  position: relative;
-  display: inline-block;
-  margin: 2px;
-}
-
-.menu ul li a {
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  text-decoration: none;
-  padding-top: 5px;
-  color: #000;
-  background: #00b3e9;
-}
-
-.menu ul li a:hover {
-  background: #fff;
-  color: #000;
-}
-
 /* --- WIDE ---------------*/
 @media (min-width: 600px) {
-  .header-wrap {
-    margin-top: 20px;
-  }
-
-  .header {
-    padding-top: 18px;
-    background: url("/site/solid-sound.png") no-repeat center 10px;
-  }
-  .header h1 {
-    height: 115px;
-  }
-
-  .header .menu {
-    text-align: center;
-  }
-
-  .menu ul {
-  }
-
-  .menu ul li {
-    width: 120px;
-    height: 36px;
-    font-size: 11pt;
-  }
-
-  .content {
-    padding: 10px;
-    font-size: 11pt;
-  }
-
-  .content h3 {
-    font-size: 25px;
-    padding-left: 5px;
-    margin: 8px 0px 0px 0px !important;
-  }
-
-  .content p,
-  .content ul li {
-    font-size: 14px;
-    padding: 10px;
-  }
-
-  .content h2 {
-    font-size: 45px;
-    padding-left: 5px;
-    letter-spacing: 0.07em;
-  }
-
   .mediumGap {
     margin-top: 30px;
   }
@@ -163,48 +20,6 @@ a:hover {
 
 /* --- NARROW  ---------------*/
 @media (max-width: 600px) {
-  .header {
-    background: url("/site/solid-sound.png") 0px 5px / 300px 58px no-repeat;
-    height: 110px;
-  }
-
-  .header .menu {
-    position: absolute;
-    top: 66px;
-  }
-
-  .menu ul li {
-    width: 45px;
-    height: 34px;
-    font-size: 10px;
-  }
-
-  .menu ul li a {
-    padding-left: 5px;
-  }
-
-  .content {
-    padding: 3px;
-    font-size: 10px;
-  }
-
-  .content h3 {
-    font-size: 25px;
-    padding-left: 5px;
-    margin: 5px 4px 0px 5px !important;
-  }
-
-  .content p,
-  .content ul li {
-    font-size: 14px;
-    padding: 4px;
-  }
-
-  .content h2 {
-    font-size: 45px;
-    letter-spacing: 0.07em;
-  }
-
   .mediumGap {
     margin-top: 7px;
   }
@@ -232,14 +47,6 @@ a:hover {
   border-top: 2px solid #000;
 }
 
-.content {
-  background: #fff;
-  color: #000;
-  border-top: 3px solid #000;
-  border-left: 2px solid #333;
-  border-right: 2px solid #333;
-}
-
 .blue a {
   background: #2cf;
   color: #000;
@@ -248,14 +55,6 @@ a:hover {
 .bluepale a {
   background: #9ef;
   color: #000;
-}
-
-.content h2 {
-  color: #fff;
-  background: #ffe773;
-  border-bottom: 2px solid #ff5500;
-  text-shadow: 3px 3px 2px#000000c0, -1px -1px black, -1px 1px black,
-    1px -1px black;
 }
 
 .background-submenu .title,
@@ -281,30 +80,6 @@ a:hover {
 
 .background-submenu .title {
   background: #fd9a9a;
-}
-
-.content h3 {
-  color: #0b5489;
-  border-bottom: 1px solid #eee;
-  background: rgba(70, 70, 70, 0.4);
-}
-
-.content p b {
-  color: #000;
-}
-
-.content ul > li {
-  margin: 4px 0px 4px 20px;
-}
-
-.content ol > li {
-  margin: 4px 0px 14px 20px;
-}
-
-h3.head-blue {
-  background: #2cf;
-  color: #fff;
-  text-shadow: 1px 1px black, -1px -1px black, -1px 1px black, 1px -1px black;
 }
 
 .css-hidden {
