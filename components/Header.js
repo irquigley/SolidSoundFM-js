@@ -8,7 +8,6 @@ export default function Header({ title }) {
         <title>{title}</title>
         <meta name="description" content="Solid Sound FM" />
         <link rel="icon" href="/favicon.ico" />
-        <link href="/site/main.css" rel="stylesheet" key="maincss" />
       </Head>
 
       <div className="header-wrap">
