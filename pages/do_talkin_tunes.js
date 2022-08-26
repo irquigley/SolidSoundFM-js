@@ -161,7 +161,12 @@ export default function Do_Talkin_Tunes() {
         <BoxGroup color="orange">
           <Box title="Shy?">
             If you&apos;re feeling shy or nervous, I have years of experience
-            helping people through that.
+            helping people to sound their very best.
+          </Box>
+          <Box title="Not a performance">
+            The interview part is NOT a performance! Be yourself. You do not
+            have to prove anything, or pretend you know more than you do. I want
+            to hear what uyou think about music. Thatapos;s it.
           </Box>
           <Box title="Edit">
             I edit the chat. I cut out all the erms, yeah, you know what I mean,
