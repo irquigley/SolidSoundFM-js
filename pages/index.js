@@ -3,16 +3,11 @@ import Heading1 from "../components/Heading1";
 import Heading2 from "../components/Heading2";
 import Para from "../components/Para";
 
-import GapSmall from "../components/GapSmall";
 import GapMedium from "../components/GapMedium";
-import BoxGroup from "../components/BoxGroup";
-import Box from "../components/Box";
 import SoundCloudBox from "../components/SoundCloudBox";
 
 import PageContainer from "../components/PageContainer";
-import FacebookPlugin from "../components/scripts/facebook";
-
-import styles from "../styles/Home.module.css";
+import Indent from "../components/Indent";
 
 export default function Home() {
   return (
@@ -43,29 +38,28 @@ export default function Home() {
         <Para color="grey">
           <b>Main elements are: </b>
           <br />
-          &nbsp;&nbsp;
-          <Link href="/interviews">
-            <a>Talking Tunes</a>
-          </Link>
-          , a podcast where we talk to people about music. <br />
-          &nbsp;&nbsp;
-          <Link href="/guestmixes">
-            <a>Guest Mixes</a>
-          </Link>
-          , over 200 DJ and producer mixes across the spectrum of hard rave
-          genres.
-          <br />
-          &nbsp;&nbsp;
-          <Link href="/hard_rave">
-            <a>Record Label</a>
-          </Link>
-          , releasing tunes under the &apos;Hard Rave Energy&apos; lable. <br />
-          &nbsp;&nbsp;
-          <Link href="/newreleases">
-            <a>Music Reviews</a>
-          </Link>
-          , a once a month round up of everything new and good that caught my
-          ear.
+          <Indent>
+            <Link href="/interviews">
+              <a>Talking Tunes</a>
+            </Link>
+            , a podcast where we talk to people about music. <br />
+            <Link href="/guestmixes">
+              <a>Guest Mixes</a>
+            </Link>
+            , over 200 DJ and producer mixes across the spectrum of hard rave
+            genres.
+            <br />
+            <Link href="/hard_rave">
+              <a>Record Label</a>
+            </Link>
+            , releasing tunes under the &apos;Hard Rave Energy&apos; lable.{" "}
+            <br />
+            <Link href="/newreleases">
+              <a>Music Reviews</a>
+            </Link>
+            , a once a month round up of everything new and good that caught my
+            ear.
+          </Indent>
         </Para>
         <GapMedium />
 
