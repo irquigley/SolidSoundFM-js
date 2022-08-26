@@ -31,17 +31,9 @@ a {
 }
 
 h1,
-h2 {
-  font-family: "Boogaloo", serif;
-}
-
+h2,
 h3 {
-  font-family: "Boogaloo", serif;
-  color: #000;
-  margin-top: 5px;
-  letter-spacing: 0.1em;
-  font-size: 30px;
-  padding-top: 10px;
+  font-family: "Boogaloo", sans-serif;
 }
 
 h4 {

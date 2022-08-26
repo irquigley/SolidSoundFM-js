@@ -15,23 +15,10 @@ export default function PageContainer({ title, children }) {
         {`
           .content {
             background: #fff;
-            color: #000;
+            color: #111;
             border-top: 3px solid #000;
             border-left: 2px solid #333;
             border-right: 2px solid #333;
-          }
-          .content h2 {
-            color: #fff;
-            background: #ffe773;
-            border-bottom: 2px solid #ff5500;
-            text-shadow: 3px 3px 2px#000000c0, -1px -1px black, -1px 1px black,
-              1px -1px black;
-          }
-
-          .content h3 {
-            color: #0b5489;
-            border-bottom: 1px solid #eee;
-            background: rgba(70, 70, 70, 0.4);
           }
 
           .content p b {
@@ -51,22 +38,10 @@ export default function PageContainer({ title, children }) {
               font-size: 11pt;
             }
 
-            .content h3 {
-              font-size: 25px;
-              padding-left: 5px;
-              margin: 8px 0px 0px 0px !important;
-            }
-
             .content p,
             .content ul li {
               font-size: 14px;
               padding: 10px;
-            }
-
-            .content h2 {
-              font-size: 45px;
-              padding-left: 5px;
-              letter-spacing: 0.07em;
             }
           }
 
@@ -77,21 +52,10 @@ export default function PageContainer({ title, children }) {
               font-size: 10px;
             }
 
-            .content h3 {
-              font-size: 25px;
-              padding-left: 5px;
-              margin: 5px 4px 0px 5px !important;
-            }
-
             .content p,
             .content ul li {
               font-size: 14px;
               padding: 4px;
-            }
-
-            .content h2 {
-              font-size: 45px;
-              letter-spacing: 0.07em;
             }
           }
         `}

@@ -64,6 +64,21 @@ export default function BoxGroup({ color, children }) {
             border: 3px solid #17a6ff;
             background: #eef5fa;
           }
+
+          /* --- WIDE ---------------*/
+          @media (min-width: 600px) {
+            .boxes .box {
+              width: 360px;
+              margin: 10px;
+            }
+          }
+
+          /* --- NARROW  ---------------*/
+          @media (max-width: 600px) {
+            .boxes .box {
+              width: 97%;
+            }
+          } /* ---- */
         `}
       </style>
     </>
