@@ -1,7 +1,7 @@
 export default function Indent({ children }) {
   return (
     <>
-      <div className="Indent">{children}</div>
+      <p className="Indent">{children}</p>
       <style jsx global>
         {`
           @media (min-width: 600px) {

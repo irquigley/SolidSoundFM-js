@@ -57,7 +57,7 @@ export default function Home() {
             <Link href="/newreleases">
               <a>Music Reviews</a>
             </Link>
-            , a once a month round up of everything new and good that caught my
+            , a once a month round up  of everything new and good that caught my
             ear.
           </Indent>
         </Para>
