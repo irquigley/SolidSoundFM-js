@@ -21,22 +21,16 @@ export default function PageContainer({ title, children }) {
             border-right: 2px solid #333;
           }
 
-          .content p {
-            padding: 8px 12px;
-          }
+          
           .content p b {
             color: #000;
           }
 
-          .content ul
-          {
-            padding: 0px 0px 10px 0px;
-          }
           .content ul > li {
-            margin: 0px 0px 0px 20px;
             list-style: none;
-            padding: 2px 0px;
           }
+
+        
         
           @media (min-width: 600px) {
             .content {
@@ -48,6 +42,20 @@ export default function PageContainer({ title, children }) {
             .content ul li {
               font-size: 14px;              
             }
+
+            .content p {
+              padding: 8px 12px;
+            }
+
+            .content ul
+            {
+              padding: 0px 0px 10px 0px;
+            }         
+         
+            .content ul > li {
+              margin: 0px 0px 0px 20px;            
+              padding: 2px 0px;
+            }
           }
 
           /* --- NARROW  ---------------*/
@@ -57,10 +65,24 @@ export default function PageContainer({ title, children }) {
               font-size: 10px;
             }
 
+            .content p {
+              padding: 4px 6px;
+            }
+          
             .content p,
             .content ul li {
               font-size: 14px;
-              padding: 4px;
+              
+            }
+
+            .content ul
+            {
+              padding: 0px 0px 10px 0px;
+            }         
+         
+            .content ul > li {
+              margin: 0px 0px 0px 8px;            
+              padding: 2px;
             }
           }
         `}
