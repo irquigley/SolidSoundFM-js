@@ -1,7 +1,7 @@
 import Heading1 from "../components/Heading1";
 import Heading2 from "../components/Heading2";
 import Heading3 from "../components/Heading3";
-import Para from "../components/Para";
+import Part from "../components/Part";
 import GapSmall from "../components/GapSmall";
 import GapMedium from "../components/GapMedium";
 import BoxGroup from "../components/BoxGroup";
@@ -19,7 +19,8 @@ export default function Kushti() {
       <PageContainer title="Kushti">
         <Heading1>Kushti</Heading1>
 
-        <Para color="orange-light">
+        <Part color="orange-light">
+          <p>
           Kushti is a multi-genre &apos;hard rave&apos; style DJ.
           <br />
           <br />
@@ -41,9 +42,8 @@ export default function Kushti() {
           as the only way to experience so many different genre&apos;s of music
           and keep things fresh. Aiming to make each major set he plays as
           unique as possible.
-          <br />
-          <br />
-        </Para>
+          <br /></p>
+        </Part>
 
         <GapSmall />
 

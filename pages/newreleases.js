@@ -1,5 +1,5 @@
 import Heading1 from "../components/Heading1";
-import Para from "../components/Para";
+import Part from "../components/Part";
 
 import PageContainer from "../components/PageContainer";
 
@@ -12,21 +12,24 @@ export default function NewReleases() {
       <PageContainer title="New Releases">
         <Heading1>Monthly New Releases show</Heading1>
 
-        <Para color="blue-bold">
-          <b>
+        <Part color="blue-bold">
+          <p><b>
             You ain&apos;t tuning in for the mixing - you&apos;re tuning in for
             the tunes!
           </b>
-        </Para>
+          </p>
+        </Part>
 
-        <Para color="blue-light">
+        <Part color="blue-light">
+          <p>
           I&apos;m constantly clocking new tunes, being sent promo&apos;s and
           out right hassling people for what&apos;s hot. Then I bundle all that
           up, and spin it out as a show. There&apos;s stuff that was released in
           the last month, stuff that&apos;s due to be released and the odd bit
           of unreleased stuff. There&apos;s even some stuff from way back that I
           missed that I&apos;ll lash in there for good measure.
-        </Para>
+          </p>
+        </Part>
 
         <SoundCloudBox
           height="450"

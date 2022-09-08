@@ -10,7 +10,7 @@ import FacebookPlugin from "../components/scripts/facebook";
 
 import styles from "../styles/Home.module.css";
 import SoundCloudBox from "../components/SoundCloudBox";
-import Para from "../components/Para";
+import Part from "../components/Part";
 
 export default function stuff() {
   return (
@@ -18,7 +18,7 @@ export default function stuff() {
       <PageContainer title="Solid Sound Stuff Page">
         <Heading1>Page of stuff!</Heading1>
 
-        <Para color="grey">No stuff here pal!</Para>
+        <Part color="grey"><p>No stuff here pal!</p></Part>
       </PageContainer>
     </>
   );

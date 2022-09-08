@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Heading1 from "../components/Heading1";
 import Heading2 from "../components/Heading2";
-import Para from "../components/Para";
+import Part from "../components/Part.js";
 
 import GapMedium from "../components/GapMedium";
 import SoundCloudBox from "../components/SoundCloudBox";
@@ -15,10 +15,13 @@ export default function Home() {
       <PageContainer title="Solid Sound FM">
         <Heading1>What is it?</Heading1>
 
-        <Para color="orange-bold">
+        <Part color="orange-bold">
+          <p>
           <b>Solid Sound is a weekly radio-show. FM Broadcast and Podcast.</b>
-        </Para>
-        <Para color="orange-light">
+          </p>
+        </Part>
+        <Part color="orange-light">
+          <p>
           Established in 2013 and hosted by Kushti.
           <br />
           Broadcast Every Tuesday, 9-11pm on 93.9FM in Dublin,{" "}
@@ -34,37 +37,48 @@ export default function Home() {
           <Link href="https://soundcloud.com/solidsoundfm">
             <a>Soundcloud.com</a>
           </Link>
-        </Para>
-        <Para color="grey">
+          </p>
+        </Part>
+        <Part color="grey">
+          <p>
           <b>Main elements are: </b>
-          <br />
-          <Indent>
+          </p>
+        
+          <ul>
+            <li>
             <Link href="/interviews">
               <a>Talking Tunes</a>
             </Link>
-            , a podcast where we talk to people about music. <br />
+            , a podcast where we talk to people about music.
+            </li>
+            <li>
             <Link href="/guestmixes">
               <a>Guest Mixes</a>
             </Link>
             , over 200 DJ and producer mixes across the spectrum of hard rave
             genres.
-            <br />
+            </li>
+            <li>
             <Link href="/hard_rave">
               <a>Record Label</a>
             </Link>
             , releasing tunes under the &apos;Hard Rave Energy&apos; lable.{" "}
-            <br />
+            </li>
+            <li>
             <Link href="/newreleases">
               <a>Music Reviews</a>
             </Link>
             , a once a month round up  of everything new and good that caught my
             ear.
-          </Indent>
-        </Para>
+            </li>
+          </ul>
+          </Part>
+    
         <GapMedium />
 
         <Heading1>What is Hard Rave Music?</Heading1>
-        <Para color="grey">
+        <Part color="grey">
+          <p>
           You&apos;ll get anything from; Jungle, Techno, Ghetto Funk, Hardcore
           techno, Garage, Drum &amp; Bass, Electro house, Mutant Bass, Bounce,
           Gabber, Old school breakbeat hardcore, Breakcore and well just about
@@ -74,7 +88,8 @@ export default function Home() {
           minute mix. Don&apos;t ask &quot;what should I play&quot;. Play the
           tunes you love and share that passion. It&apos; community radio and we
           are the Dublin Rave Community!
-        </Para>
+          </p>
+        </Part>
         <GapMedium />
         <Heading2>Most Recent Shows...</Heading2>
         <SoundCloudBox

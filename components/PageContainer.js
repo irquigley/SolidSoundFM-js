@@ -21,17 +21,23 @@ export default function PageContainer({ title, children }) {
             border-right: 2px solid #333;
           }
 
+          .content p {
+            padding: 8px 12px;
+          }
           .content p b {
             color: #000;
           }
 
+          .content ul
+          {
+            padding: 0px 0px 10px 0px;
+          }
           .content ul > li {
-            margin: 4px 0px 4px 20px;
+            margin: 0px 0px 0px 20px;
+            list-style: none;
+            padding: 2px 0px;
           }
-          .content ol > li {
-            margin: 4px 0px 14px 20px;
-          }
-
+        
           @media (min-width: 600px) {
             .content {
               padding: 10px;
@@ -40,8 +46,7 @@ export default function PageContainer({ title, children }) {
 
             .content p,
             .content ul li {
-              font-size: 14px;
-              padding: 10px;
+              font-size: 14px;              
             }
           }
 

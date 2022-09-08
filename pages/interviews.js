@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Heading1 from "../components/Heading1";
 import Heading2 from "../components/Heading2";
-import Para from "../components/Para";
+import Part from "../components/Part";
 import GapSmall from "../components/GapSmall";
 import GapMedium from "../components/GapMedium";
 import BoxGroup from "../components/BoxGroup";
@@ -18,18 +18,22 @@ export default function Interviews() {
     <>
       <PageContainer title="Talking Tunes">
         <Heading1>Talking Tunes</Heading1>
-        <Para color="grey">
+        <Part color="grey">
+          <p>
           Interviews are one of the things I enjoy the most. Who are these
           people? What makes them tick? Much love and respect for everyone
           who&apos;s put up with my incoherent ramblings!
-        </Para>
+          </p>
+        </Part>
 
-        <Para color="orange-light">
+        <Part color="orange-light">
+          <p>
           For more information about being{" "}
           <Link href="do_talkin_tunes">
             <a>interviewed and the process</a>
           </Link>
-        </Para>
+          </p>
+        </Part>
 
         <GapSmall />
         <SoundCloudBox

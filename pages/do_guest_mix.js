@@ -10,7 +10,7 @@ import PageContainer from "../components/PageContainer";
 import SoundCloudBox from "../components/SoundCloudBox";
 
 import styles from "../styles/Home.module.css";
-import Para from "../components/Para";
+import Part from "../components/Part";
 import ImageExt from "../components/ImageExt";
 
 export default function do_guest_mix() {
@@ -21,9 +21,11 @@ export default function do_guest_mix() {
         <GapSmall />
 
         <Heading2>WHAT TYPE OF MIX?</Heading2>
-        <Para color="blue-light">
+        <Part color="blue-light">
+          <p>
           Is this going to be a Guest Mix or a Producer Mix?
-        </Para>
+          </p>
+        </Part>
         <BoxGroup color="blue">
           <Box title="GUEST MIX">
             A DJ set, mixing music from various artists. <br />
@@ -36,12 +38,14 @@ export default function do_guest_mix() {
         </BoxGroup>
 
         <Heading2>RULES</Heading2>
-        <Para color="grey">
+        <Part color="grey">
+          <p>
           These are not hard rules written in stone! Talk to me if you need to.
           The door is always open, and the list is operated on First come, First
           played order. So when there are 4 mixes &quot;in the bag&quot;, mixes
           submitted after will go in the next guest mix show.
-        </Para>
+          </p>
+        </Part>
         <BoxGroup color="orange">
           <Box title="Exclusive">
             Mixes need to be <b>Exclusive to Solid Sound</b> channel, and not
@@ -63,10 +67,11 @@ export default function do_guest_mix() {
         <GapMedium />
 
         <Heading1>What are the benefits?</Heading1>
-        <Para color="grey">
+        <Part color="grey">
+          <p>
           If I think the mix is up to standard (have yet to decline a mix), then
-          ...
-        </Para>
+          ...</p>
+        </Part>
         <BoxGroup color="yellow">
           <Box title="Hypeddit">
             The MP3 is downloaded via Hypeddit, with a gate step of Follow Your
@@ -90,7 +95,8 @@ export default function do_guest_mix() {
         </BoxGroup>
 
         <Heading2>Sending files </Heading2>
-        <Para color="blue-light">
+        <Part color="blue-light">
+          <p>
           The two simplest options for sending files are
           <br />
           <br />
@@ -115,32 +121,39 @@ export default function do_guest_mix() {
             autoShrink="true"
             alt="We Transfer dialog"
           />
-        </Para>
+          </p>
+        </Part>
 
         <Heading2>Mastering a DJ mix</Heading2>
-        <Para color="blue-light">
+        <Part color="blue-light">
+          <p>
           If your mix needs it, I can will &quot;Master&quot; your mix. Just to
           give it a lift. If you do not want this, just let me know. A good few
           mixes that are sent don&apos;t really need it. Here is a video I made
           on the subject..
-        </Para>
+          </p>
+        </Part>
         <iframe
           className="youtube-iframe"
           src="https://www.youtube.com/embed/9c8u6RL6KcM"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         ></iframe>
         <br />
-        <Para color="blue-light">
+        <Part color="blue-light">
+          <p>
           I don&apos;t claim to be a Sound Engineer or professional, but this is
           what works for me.
-        </Para>
+          </p>
+        </Part>
 
         <Heading2>Editing a DJ mix</Heading2>
-        <Para color="blue-light">
+        <Part color="blue-light">
+          <p>
           Editing is cheating, or is it? Well if your 20 minutes into the mix
           and fuck up, rewind and go again. If your not capable of editing, send
           it on and I&apos;ll try to edit it for you.
-        </Para>
+          </p>
+        </Part>
         <iframe
           className="youtube-iframe"
           src="https://www.youtube.com/embed/6mXPx1CTAgI"
