@@ -38,7 +38,7 @@ export default function do_guest_mix() {
         </BoxGroup>
 
         <Heading2>RULES</Heading2>
-        <Part color="grey">
+        <Part color="blue-light">
           <p>
           These are not hard rules written in stone! Talk to me if you need to.
           The door is always open, and the list is operated on First come, First

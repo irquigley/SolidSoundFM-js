@@ -18,13 +18,11 @@ export default function GuestMixes() {
       <PageContainer title="Guest Mixes">
         <Heading1>Guest Mixes</Heading1>
 
-        <Part color="orange-light">
+        <Part color="blue-bold">
           <p>
-          No talking, no nonsense... just straight up musical vibes from some of
-          the greatest DJ&apos;s around.{" "}
-          </p>
+          <b>Over 200 mixes, from DJ&apos;s across the world, packed into 30 minute bite sized chunks, every genre you can imagine.</b>          </p>
         </Part>
-        <Part color="grey">
+        <Part color="blue-light">
           <p>
           Do you want to{" "}
           <Link href="do_guest_mix">

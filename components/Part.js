@@ -15,7 +15,7 @@ export default function Part({ color, children }) {
       <style jsx global>
         {`
           div.grey {
-            background: #eee;
+            background: #edeadf;
             color: #000;
           }
 
@@ -39,8 +39,17 @@ export default function Part({ color, children }) {
             color: 000;
           }
 
-          div a {
-            color: #28f;
+          div.blue-bold a,
+          div.blue-light a {
+            color: #04f;
+          }
+
+          div.orange-light a,
+          div.orange-bold a {
+            color: #f00;
+          }
+          div.grey a { 
+            color: #f50;
           }
 
           div a:hover {

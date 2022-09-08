@@ -18,11 +18,12 @@ export default function Interviews() {
     <>
       <PageContainer title="Talking Tunes">
         <Heading1>Talking Tunes</Heading1>
-        <Part color="grey">
+        <Part color="blue-bold">
+          <p><b>Talking to people about the music they think is worth talking about.</b></p>
+        </Part>
+        <Part color="blue-light">
           <p>
-          Interviews are one of the things I enjoy the most. Who are these
-          people? What makes them tick? Much love and respect for everyone
-          who&apos;s put up with my incoherent ramblings!
+            In each podcast, we ask the guest to pick out 15 tunes they think are worth talking about. Then we play that music for you and talk about it, as well as talking about the guest, their life and stories, as well as any topic that comes to mind.
           </p>
         </Part>
 

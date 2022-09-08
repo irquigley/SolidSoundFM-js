@@ -17,11 +17,13 @@ export default function Hard_Rave() {
     <>
       <PageContainer title="Hard Rave Energy">
         <Heading1>Hard Rave Energy</Heading1>
-
-        <Part color="orange-light">
+        <Part color="blue-bold">
+          <p><b>Download Free Hard Rave Music!</b></p>
+      </Part>
+        <Part color="blue-light">
           <p>
           Always finding great unreleased tunes and putting them out via Solid
-          Sound&apos;s label Hard Rave Energy. Free Download!
+          Sound&apos;s label Hard Rave Energy.
           </p>
         </Part>
         <SoundCloudBox

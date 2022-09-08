@@ -18,12 +18,15 @@ export default function Kushti() {
     <>
       <PageContainer title="Kushti">
         <Heading1>Kushti</Heading1>
-
-        <Part color="orange-light">
+        <Part color="blue-bold">
           <p>
-          Kushti is a multi-genre &apos;hard rave&apos; style DJ.
-          <br />
-          <br />
+          <b>  Kushti is a multi-genre, hard rave style DJ.
+          </b>
+          </p>
+        </Part>
+
+        <Part color="blue-light">
+          <p>
           An old school veteran of the early 90&apos;s UK rave scene who&apos;s
           been DJing on and off for 20 years. He started out on some awful
           home-tweaked decks, then progressed to playing Technics 1210&apos;s at
@@ -32,8 +35,8 @@ export default function Kushti() {
           gabber. In the first decade of the new millennium things quietened
           down. He moved back to the UK and then on to Ireland while he focused
           on family.
-          <br />
-          <br />
+          </p>
+          <p>
           In 2013 his passion for music was reignited when he began presenting
           Solid Sound radio show on Dublin South FM 93.9FM and was part of The
           Energy Collective crew until 2018. Like any old schooler, vinyl still
@@ -42,13 +45,13 @@ export default function Kushti() {
           as the only way to experience so many different genre&apos;s of music
           and keep things fresh. Aiming to make each major set he plays as
           unique as possible.
-          <br /></p>
+          </p>
         </Part>
 
         <GapSmall />
 
         <Heading2>History</Heading2>
-
+        
         <Heading3>1973, born in UK</Heading3>
         <ImageExt src="/page/baby.png" autoShrink="false" />
 
