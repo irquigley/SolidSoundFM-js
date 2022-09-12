@@ -2,7 +2,7 @@ export default function GapMedium() {
   return (
     <>
       <div className="mediumGap"></div>
-      <style jsx global>
+      <style global>
         {`
           @media (min-width: 600px) {
             .mediumGap {

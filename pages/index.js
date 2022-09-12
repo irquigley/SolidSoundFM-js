@@ -7,7 +7,9 @@ import GapMedium from "../components/GapMedium";
 import SoundCloudBox from "../components/SoundCloudBox";
 
 import PageContainer from "../components/PageContainer";
-import Indent from "../components/Indent";
+import IconGroup from "../components/IconGroup";
+import IconLink from "../components/IconLink";
+
 
 export default function Home() {
   return (
@@ -77,19 +79,25 @@ export default function Home() {
         <GapMedium />
 
         <Heading1>What is Hard Rave Music?</Heading1>
-        <Part color="grey">
+        <Part color="orange-light">
+          <p>Jungle, Gabber, Crossbreed, Breakcore, Drum &amp; Bass, Old school rave, Bass, Tekno and Techno, Ghetto Tech, Electro and anything else with ummpfff!</p></Part>
+      <Part color="grey">
+        <p>        
+          I'm always on the look-out for something new and interesting. This is music for people who get bored easily and want to hear an eclectic mixture of rave genres. Anything goes, as long as it's not boring, predictable or unimaginative.
+          </p>
           <p>
-          You&apos;ll get anything from; Jungle, Techno, Ghetto Funk, Hardcore
-          techno, Garage, Drum &amp; Bass, Electro house, Mutant Bass, Bounce,
-          Gabber, Old school breakbeat hardcore, Breakcore and well just about
-          anything. <br />
-          Always on the look-out for something NEW so fire me tunes or if
-          you&apos;re a DJ, then join the guest mix crew and send me on a 30
-          minute mix. Don&apos;t ask &quot;what should I play&quot;. Play the
-          tunes you love and share that passion. It&apos; community radio and we
-          are the Dublin Rave Community!
+          The music review show, and guest mixes will cover everything from 100 BPM to 200 BPM and beyond. All styles from disco to ravecore, from electro house to hi-tech.
           </p>
         </Part>
+        <GapMedium />
+        <Heading2>Socials and Links</Heading2>
+        <IconGroup>
+            <IconLink link="https://soundcloud.com/solidsoundfm" text="Solid Sound FM" image="/page/homepage/icon-soundcloud.jpg" />
+            <IconLink link="https://facebook.com/kushti.23" text="Facebook Kushti" image="/page/homepage/icon-kushti.jpg" />
+            <IconLink link="https://soundcloud.com/hardraveenergy" text="Hard Rave Energy" image="/page/homepage/icon-hre.jpg" />
+            <IconLink link="https://youtube.com/solidsoundfm" text="Solid Sound FM" image="/page/homepage/icon-youtube.jpg" />
+            <IconLink link="https://linktr.ee/solidsoundfm" text="Link Tree" image="/page/homepage/icon-morelinks.jpg" />
+        </IconGroup>
         <GapMedium />
         <Heading2>Most Recent Shows...</Heading2>
         <SoundCloudBox

@@ -1,10 +1,10 @@
 export default function Heading2({ children }) {
   return (
     <>
-      <h3>{children}</h3>
-      <style jsx global>
+      <h3 className="blue">{children}</h3>
+      <style global>
         {`
-          h3 {
+          h3.blue {
             background: #2cf;
             color: #fff;
             text-shadow: 1px 1px black, -1px -1px black, -1px 1px black,
@@ -12,6 +12,7 @@ export default function Heading2({ children }) {
 
             font-size: 25px;
             padding-left: 5px;
+            padding-top: 5px;
             letter-spacing: 0.1em;
           }
 
