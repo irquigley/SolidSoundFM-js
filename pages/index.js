@@ -83,7 +83,7 @@ export default function Home() {
           <p>Jungle, Gabber, Crossbreed, Breakcore, Drum &amp; Bass, Old school rave, Bass, Tekno and Techno, Ghetto Tech, Electro and anything else with ummpfff!</p></Part>
       <Part color="grey">
         <p>        
-          I'm always on the look-out for something new and interesting. This is music for people who get bored easily and want to hear an eclectic mixture of rave genres. Anything goes, as long as it's not boring, predictable or unimaginative.
+          I&apos;m always on the look-out for something new and interesting. This is music for people who get bored easily and want to hear an eclectic mixture of rave genres. Anything goes, as long as it&apos;s not boring, predictable or unimaginative.
           </p>
           <p>
           The music review show, and guest mixes will cover everything from 100 BPM to 200 BPM and beyond. All styles from disco to ravecore, from electro house to hi-tech.
