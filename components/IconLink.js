@@ -5,7 +5,7 @@ export default function IconLink({ link, image, text }) {
   
     return (
       <>
-        <div class="iconLink">
+        <div className="iconLink">
             <Link href={link}>
                 <a target="_blank" rel="noopener noreferrer">
                 <img src={image} />
