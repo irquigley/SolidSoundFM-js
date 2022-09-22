@@ -18,7 +18,7 @@ export default function stuff() {
       <PageContainer title="Solid Sound Stuff Page">
         <Heading1>Page of stuff!</Heading1>
 
-        <Part color="grey"><p>No stuff here pal!</p></Part>
+        <Part color="khaki"><p>No stuff here pal!</p></Part>
       </PageContainer>
     </>
   );

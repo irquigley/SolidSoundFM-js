@@ -41,7 +41,7 @@ export default function Home() {
           </Link>
           </p>
         </Part>
-        <Part color="grey">
+        <Part color="khaki">
           <p>
           <b>Main elements are: </b>
           </p>
@@ -81,7 +81,7 @@ export default function Home() {
         <Heading1>What is Hard Rave Music?</Heading1>
         <Part color="orange-light">
           <p>Jungle, Gabber, Crossbreed, Breakcore, Drum &amp; Bass, Old school rave, Bass, Tekno and Techno, Ghetto Tech, Electro and anything else with ummpfff!</p></Part>
-      <Part color="grey">
+      <Part color="khaki">
         <p>        
           I&apos;m always on the look-out for something new and interesting. This is music for people who get bored easily and want to hear an eclectic mixture of rave genres. Anything goes, as long as it&apos;s not boring, predictable or unimaginative.
           </p>
@@ -90,7 +90,7 @@ export default function Home() {
           </p>
         </Part>
         <GapMedium />
-        <Heading2>Socials and Links</Heading2>
+        <Heading2 color="blue">Socials and Links</Heading2>
         <IconGroup>
             <IconLink link="https://soundcloud.com/solidsoundfm" text="Solid Sound FM" image="/page/homepage/icon-soundcloud.jpg" />
             <IconLink link="https://facebook.com/kushti.23" text="Facebook Kushti" image="/page/homepage/icon-kushti.jpg" />
@@ -99,7 +99,7 @@ export default function Home() {
             <IconLink link="https://linktr.ee/solidsoundfm" text="Link Tree" image="/page/homepage/icon-morelinks.jpg" />
         </IconGroup>
         <GapMedium />
-        <Heading2>Most Recent Shows...</Heading2>
+        <Heading2 color="blue">Most Recent Shows...</Heading2>
         <SoundCloudBox
           height="350"
           src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/786476694&amp;color=%23444444&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"

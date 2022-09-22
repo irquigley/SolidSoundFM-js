@@ -1,3 +1,4 @@
+
 import Heading1 from "../components/Heading1";
 import Heading2 from "../components/Heading2";
 import GapSmall from "../components/GapSmall";
@@ -16,8 +17,13 @@ export default function Do_Talkin_Tunes() {
     <>
       <PageContainer title="How to: Talking Tunes">
         <Heading1>Talking Tunes</Heading1>
+        <Heading2 color="pink">What is it?</Heading2>
         <GapSmall />
-        <BoxGroup color="yellow">
+        <BoxGroup color="pink">
+        <Box title="It's 15 tunes">
+            Pick 15 tunes you think are worth talking about.
+            It&apos;s near impossible to pick 15 greatest tunes of all time.            
+          </Box>
           <Box title="Discovery">
             People are interested in Music.
             <br />
@@ -29,84 +35,78 @@ export default function Do_Talkin_Tunes() {
             <br /> Any non-music random topic that comes up in natural
             conversation.
           </Box>
+          <Box title="Fun">
+            The whole process should be fun. It&apos;s not a performance. There&apos;s no right or wrong answer. Do what makes you happy.
+          </Box>
         </BoxGroup>
         <GapSmall />
 
-        <Heading2>The 6 Step Process</Heading2>
-        <Part color="grey">
+        <Heading2 color="blue">How does it work?</Heading2>
+        <Part color="blue-light">
           <p>
-          Here is the production process. Like most things, it&apos;s flexible
-          and we can figure out what works.
+          Here is the production process. Like most things, it&apos;s flexible and we can figure out what works.
           </p>
         </Part>
 
         <BoxGroup color="orange">
           <Box title="Step 1. YOU">
             The guest produces a list of 15 Tunes which you think are worth
-            talking about.
-            <br />
-            <a href="#15tunes">More info below</a>.
+            talking about.<br />(see below)
           </Box>
           <Box title="Step 2. ME">
             I produce a backing track from this list. The Backing Track is just
-            over an hour, and is a SoundCloud private.
-          </Box>
-          <Box title="Step 3. Both">
-            We agree a time, and I&apos;ll call you via Facebook Voice Chat, or
-            Skype, or Whatsapp or any &quot;talk over the internet via
-            computer&quot; application you like.
-          </Box>
-          <Box title="Step 4. Both">
-            Preferably you have a Computer and with either a headset, or
-            headphones and mic set-up.
+            over an hour, and is a SoundCloud private.<br/><a target="_blank" href="https://soundcloud.com/kushti23/my-tt-music/s-u8kDIc4P1Y7?si=18547f62c10f436199920ba903fa4071&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">Example Backing Track</a>
           </Box>
         </BoxGroup>
         <GapSmall />
 
-        <Part color="grey">
+        <Part color="khaki">
           <p>
-          Here&apos;s the technical set-up for when we record the interview.
-          </p>
+            <b>Step 3</b> - schedule a time<br />
+            We agree a time, and I&apos;ll call you via Facebook Voice Chat, or Skype, or Whatsapp or any &quot;talk over the internet via computer&quot; application you like.
+            </p>
+            <p>
+            <b>Step 4</b> - the call!<br />
+            For your set-up, it would be great if you have Headphones and then listen to the Backing Track on your computer at the same time as me, while we talk. If you have a microphone, that&apos;s great. 
+            Or a headset, if that works for you.
+            <br/>
+            Here&apos;s the technical set-up for when we record the interview.
+            </p>
+            <center>
+            <ImageExt
+              src="page/talkingtunes-diagram.jpg"
+              autoShrink="true"
+              alt="Talking Tunes Diagram"
+            />  
+            </center>
+          
         </Part>
-        <ImageExt
-          src="page/talkingtunes-diagram.jpg"
-          autoShrink="true"
-          alt="Talking Tunes Diagram"
-        />
 
-        <Part color="grey">
-        <p>
-          For your set-up, it would be great if you have Headphones and then
-          listen to the Backing Track on your computer at the same time as me,
-          while we talk. If you have a microphone, that&apos;s great. Or a
-          headset, if that works for you.
-          </p>
-        </Part>
-
-        <BoxGroup color="orange">
-          <Box title="Step 5.">
-            I spend 4 to 6 hours editing every erm, umm, double talk, misspeak,
-            off-record and gibberish from the voice recording.
-          </Box>
-          <Box title="Step 6.">
-            Finished podcast gets reviewed, then published
-          </Box>
-        </BoxGroup>
-
-        <Part color="grey">
+        <Part color="khaki">
+          <p>
+          <b>Step 5</b> - post production<br />
+          I spend 4 to 6 hours editing every erm, umm, double talk, misspeak, off-record and gibberish from the voice recording.<br/>
+          Watch this <a target="_blank" href="https://youtu.be/glfkD_-ASKw?t=41">editing example</a> and you&apos;ll see a the huge difference editing makes. 
+            </p>
+            
           <p>
           After the chat, I bring backing track, my voice and your voice into my
           DAW. Something magic happens and we have our Talking Tunes podcast.
           </p>
+          <center>
+                <ImageExt
+                src="page/tt-reaper.jpg"
+                autoShrink="true"
+                alt="Editting audio in Reaper"
+              />
+            </center>
+        
+        <br/>
         </Part>
-        <ImageExt
-          src="page/tt-reaper.jpg"
-          autoShrink="true"
-          alt="Editting audio in Reaper"
-        />
+        
 
         <GapMedium />
-        <Heading2>15 Tunes ... is an hour and a bit</Heading2>
+        <Heading2 color="blue">15 Tunes ... is an hour and a bit</Heading2>
         <Part color="blue-light">
           <p>
           We&apos;re aiming for something between an hour to an hour and thirty
@@ -160,8 +160,8 @@ export default function Do_Talkin_Tunes() {
           </Box>
         </BoxGroup>
 
-        <Heading2>How to Talk</Heading2>
-        <Part color="grey">
+        <Heading2 color="blue">How to Talk</Heading2>
+        <Part color="khaki">
           <p>
           From a very early age, you probably started talking and never really
           gave it much thought. Which is normal. This section isn&apos;t

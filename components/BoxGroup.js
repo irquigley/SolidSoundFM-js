@@ -1,4 +1,4 @@
-const COLORS = ["orange", "yellow", "blue"];
+const COLORS = ["orange", "yellow", "blue", "pink"];
 
 export default function BoxGroup({ color, children }) {
   const checkColor = COLORS.includes(color) ? color : COLORS[0];
@@ -8,7 +8,7 @@ export default function BoxGroup({ color, children }) {
   return (
     <>
       <div className={combinedClass}>{children}</div>
-      <style jsx global>
+      <style global>
         {`
           .boxes a {
             color: #28f;
@@ -64,6 +64,17 @@ export default function BoxGroup({ color, children }) {
             border: 3px solid #17a6ff;
             background: #eef5fa;
           }
+
+          .boxes.pink .box .title {
+            background: #ff8ae1;
+            color: #fff;
+          }
+
+          .boxes.pink .box .body {
+            border: 3px solid #ff8ae1;
+            background: #ffe2f8;
+          }
+          
 
           /* --- WIDE ---------------*/
           @media (min-width: 600px) {

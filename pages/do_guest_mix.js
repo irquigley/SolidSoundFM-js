@@ -20,7 +20,7 @@ export default function do_guest_mix() {
         <Heading1>Recording a Guest Mix</Heading1>
         <GapSmall />
 
-        <Heading2>WHAT TYPE OF MIX?</Heading2>
+        <Heading2 >WHAT TYPE OF MIX?</Heading2>
         <Part color="blue-light">
           <p>
           Is this going to be a Guest Mix or a Producer Mix?
@@ -37,7 +37,7 @@ export default function do_guest_mix() {
           </Box>
         </BoxGroup>
 
-        <Heading2>RULES</Heading2>
+        <Heading2 color="blue">RULES</Heading2>
         <Part color="blue-light">
           <p>
           These are not hard rules written in stone! Talk to me if you need to.
@@ -67,7 +67,7 @@ export default function do_guest_mix() {
         <GapMedium />
 
         <Heading1>What are the benefits?</Heading1>
-        <Part color="grey">
+        <Part color="khaki">
           <p>
           If I think the mix is up to standard (have yet to decline a mix), then
           ...</p>
@@ -94,7 +94,7 @@ export default function do_guest_mix() {
           </Box>
         </BoxGroup>
 
-        <Heading2>Sending files </Heading2>
+        <Heading2 color="blue">Sending files </Heading2>
         <Part color="blue-light">
           <p>
           The two simplest options for sending files are
@@ -124,7 +124,7 @@ export default function do_guest_mix() {
           </p>
         </Part>
 
-        <Heading2>Mastering a DJ mix</Heading2>
+        <Heading2 color="blue">Mastering a DJ mix</Heading2>
         <Part color="blue-light">
           <p>
           If your mix needs it, I can will &quot;Master&quot; your mix. Just to
@@ -146,7 +146,7 @@ export default function do_guest_mix() {
           </p>
         </Part>
 
-        <Heading2>Editing a DJ mix</Heading2>
+        <Heading2 color="blue">Editing a DJ mix</Heading2>
         <Part color="blue-light">
           <p>
           Editing is cheating, or is it? Well if your 20 minutes into the mix

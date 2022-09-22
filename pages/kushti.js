@@ -50,7 +50,7 @@ export default function Kushti() {
 
         <GapSmall />
 
-        <Heading2>History</Heading2>
+        <Heading2 color="blue">History</Heading2>
         
         <Heading3>1973, born in UK</Heading3>
         <ImageExt src="/page/baby.png" autoShrink="false" />

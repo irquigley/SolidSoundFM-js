@@ -1,5 +1,5 @@
 const Styles = [
-  "grey",
+  "khaki",
   "orange-bold",
   "orange-light",
   "blue-bold",
@@ -12,11 +12,11 @@ export default function Part({ color, children }) {
   return (
     <>
       <div className={classStyle}>{children}</div>
-      <style jsx global>
+      <style>
         {`
-          div.grey {
+          div.khaki {
             background: #edeadf;
-            color: #000;
+            color: #000;            
           }
 
           div.orange-bold {
@@ -36,7 +36,7 @@ export default function Part({ color, children }) {
 
           div.blue-light {
             background: #cdebf9;
-            color: 000;
+            color: 000;            
           }
 
           div.blue-bold a,
@@ -48,7 +48,7 @@ export default function Part({ color, children }) {
           div.orange-bold a {
             color: #f00;
           }
-          div.grey a { 
+          div.khaki a { 
             color: #f50;
           }
 
