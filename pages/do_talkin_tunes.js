@@ -55,7 +55,7 @@ export default function Do_Talkin_Tunes() {
           </Box>
           <Box title="Step 2. ME">
             I produce a backing track from this list. The Backing Track is just
-            over an hour, and is a SoundCloud private.<br/><a target="_blank" href="https://soundcloud.com/kushti23/my-tt-music/s-u8kDIc4P1Y7?si=18547f62c10f436199920ba903fa4071&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">Example Backing Track</a>
+            over an hour, and is a SoundCloud private.<br/><a target="_blank" rel="noopener noreferrer" href="https://soundcloud.com/kushti23/my-tt-music/s-u8kDIc4P1Y7?si=18547f62c10f436199920ba903fa4071&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">Example Backing Track</a>
           </Box>
         </BoxGroup>
         <GapSmall />
@@ -86,7 +86,7 @@ export default function Do_Talkin_Tunes() {
           <p>
           <b>Step 5</b> - post production<br />
           I spend 4 to 6 hours editing every erm, umm, double talk, misspeak, off-record and gibberish from the voice recording.<br/>
-          Watch this <a target="_blank" href="https://youtu.be/glfkD_-ASKw?t=41">editing example</a> and you&apos;ll see a the huge difference editing makes. 
+          Watch this <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/glfkD_-ASKw?t=41">editing example</a> and you&apos;ll see a the huge difference editing makes. 
             </p>
             
           <p>
