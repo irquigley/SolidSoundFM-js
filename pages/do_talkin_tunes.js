@@ -17,38 +17,29 @@ export default function Do_Talkin_Tunes() {
     <>
       <PageContainer title="How to: Talking Tunes">
         <Heading1>Talking Tunes</Heading1>
-        <Heading2 color="pink">What is it?</Heading2>
+        <Heading2 color="blue">What is it?</Heading2>
         <GapSmall />
-        <BoxGroup color="pink">
-        <Box title="It's 15 tunes">
+        <BoxGroup color="blue">
+        <Box title="The Best Interview">
+            The Best &quot;interview&quot; is an open-ended free flowing conversation.<br/>
+            It should be fun for both of us. It&apos;s not a performance, there is no right or wrong aswers.
+          </Box>
+        <Box title="15 tunes">
             Pick 15 tunes you think are worth talking about.
             It&apos;s near impossible to pick 15 greatest tunes of all time.            
           </Box>
-          <Box title="Discovery">
-            People are interested in Music.
-            <br />
-            We want to hear what you think is interesting, teach us what you
-            know.
-          </Box>
-          <Box title="Chat">
-            People want to hear some banter.
-            <br /> Any non-music random topic that comes up in natural
-            conversation.
-          </Box>
-          <Box title="Fun">
-            The whole process should be fun. It&apos;s not a performance. There&apos;s no right or wrong answer. Do what makes you happy.
-          </Box>
+          
         </BoxGroup>
         <GapSmall />
 
-        <Heading2 color="blue">How does it work?</Heading2>
-        <Part color="blue-light">
+        <Heading2 color="pink">How does it work?</Heading2>
+        <Part color="pink-light">
           <p>
           Here is the production process. Like most things, it&apos;s flexible and we can figure out what works.
           </p>
         </Part>
 
-        <BoxGroup color="orange">
+        <BoxGroup color="pink">
           <Box title="Step 1. YOU">
             The guest produces a list of 15 Tunes which you think are worth
             talking about.<br />(see below)
@@ -59,14 +50,17 @@ export default function Do_Talkin_Tunes() {
           </Box>
         </BoxGroup>
         <GapSmall />
-
+        <Part color="orange-bold"><p>Then...</p></Part>
+        <Part color="orange-light"><p><b>Step 3</b> - Schedule a time</p></Part>
         <Part color="khaki">
           <p>
-            <b>Step 3</b> - schedule a time<br />
             We agree a time, and I&apos;ll call you via Facebook Voice Chat, or Skype, or Whatsapp or any &quot;talk over the internet via computer&quot; application you like.
             </p>
             <p>
-            <b>Step 4</b> - the call!<br />
+        </p>
+        </Part>
+        <Part color="orange-light"><p> <b>Step 4</b> - I call you</p></Part>
+      <Part><p>  
             For your set-up, it would be great if you have Headphones and then listen to the Backing Track on your computer at the same time as me, while we talk. If you have a microphone, that&apos;s great. 
             Or a headset, if that works for you.
             <br/>
@@ -79,12 +73,12 @@ export default function Do_Talkin_Tunes() {
               alt="Talking Tunes Diagram"
             />  
             </center>
-          
+        <br/>          
         </Part>
-
+        <Part color="orange-light"><p>     <b>Step 5</b> - Post Production</p></Part>
+     
         <Part color="khaki">
           <p>
-          <b>Step 5</b> - post production<br />
           I spend 4 to 6 hours editing every erm, umm, double talk, misspeak, off-record and gibberish from the voice recording.<br/>
           Watch this <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/glfkD_-ASKw?t=41">editing example</a> and you&apos;ll see a the huge difference editing makes. 
             </p>

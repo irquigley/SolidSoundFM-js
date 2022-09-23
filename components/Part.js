@@ -3,7 +3,8 @@ const Styles = [
   "orange-bold",
   "orange-light",
   "blue-bold",
-  "blue-light"
+  "blue-light",
+  "pink-light"  
 ];
 
 export default function Part({ color, children }) {
@@ -48,8 +49,14 @@ export default function Part({ color, children }) {
           div.orange-bold a {
             color: #f00;
           }
+
           div.khaki a { 
             color: #f50;
+          }
+
+          div.pink-light {
+            background: #ffe2f8;
+            color: 000;            
           }
 
           div a:hover {

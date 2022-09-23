@@ -67,7 +67,7 @@ export default function BoxGroup({ color, children }) {
 
           .boxes.pink .box .title {
             background: #ff8ae1;
-            color: #fff;
+            color: #000;
           }
 
           .boxes.pink .box .body {
