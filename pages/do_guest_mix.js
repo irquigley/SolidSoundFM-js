@@ -28,12 +28,12 @@ export default function do_guest_mix() {
         </Part>
         <BoxGroup color="blue">
           <Box title="GUEST MIX">
-            A DJ set, mixing music from various artists. <br />
-            These are <b>30 minutes</b> long (give or take a few minutes).
+            A DJ set, mixing music from any artists. <br />
+            <b>30 minutes</b> long (give or take a few minutes).
           </Box>
           <Box title="PRODUCER MIX">
             Artist&apos;s <b>Own Music</b>, remixes or bootlegs. <br />
-            It can be <b>ANY</b> length between 25 - 90 minutes.
+            <b>ANY</b> length between 25 - 90 minutes.
           </Box>
         </BoxGroup>
 
