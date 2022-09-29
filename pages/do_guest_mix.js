@@ -19,13 +19,13 @@ export default function do_guest_mix() {
         <Heading1>Recording a Guest Mix</Heading1>
         <GapSmall />
 
-        <Heading2 >WHAT TYPE OF MIX?</Heading2>
-        <Part color="blue-light">
+        <Heading2 color="purple" >WHAT TYPE OF MIX?</Heading2>
+        <Part color="purple-light">
           <p>
           Is this going to be a Guest Mix or a Producer Mix?
           </p>
         </Part>
-        <BoxGroup color="blue">
+        <BoxGroup color="purple">
           <Box title="GUEST MIX">
             A DJ set, mixing music from any artists. <br />
             <b>30 minutes</b> long (give or take a few minutes).
@@ -36,8 +36,8 @@ export default function do_guest_mix() {
           </Box>
         </BoxGroup>
 
-        <Heading2 color="blue">RULES</Heading2>
-        <Part color="blue-light">
+        <Heading2 color="pink">RULES</Heading2>
+        <Part color="pink-light">
           <p>
           These are not hard rules written in stone! Talk to me if you need to.
           The door is always open, and the list is operated on First come, First
@@ -45,7 +45,7 @@ export default function do_guest_mix() {
           submitted after will go in the next guest mix show.
           </p>
         </Part>
-        <BoxGroup color="orange">
+        <BoxGroup color="pink">
           <Box title="Exclusive">
             Mixes need to be <b>Exclusive to Solid Sound</b> channel, and not
             released or available anywhere else.

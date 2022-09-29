@@ -1,0 +1,60 @@
+div.khaki {
+    background: $khaki;
+    color: $black;            
+  }
+  
+  div.orange-bold {
+    background: $orange-bold;
+    color: $black;
+  }
+  
+  div.orange-light {
+    background:  $orange-bold-background;
+    color: $black;
+  }
+  
+  div.blue-bold {
+    background: $blue-h;
+    color: $white;
+  }
+  
+  div.blue-light {
+    background: $blue-h-background;
+    color: $black;            
+  }
+  
+  div.blue-bold a,
+  div.blue-light a {
+    color:  $blue-link;
+  }
+  
+  div.orange-light a,
+  div.orange-bold a {
+    color: $orange-link;
+  }
+  
+  div.khaki a { 
+    color: $khaki-link;
+  }
+  
+  div.pink-light {
+    background: $pink-background;
+    color: $black;            
+  }
+  
+  div.pink-light a {
+    color: $black;
+  }
+
+  div.purple-light {
+    background: $purple-background;
+    color: $black;            
+  }
+  
+  div.purple-light a {
+    color: $black;
+  }
+
+  div a:hover {
+    background-color: $white;
+  }

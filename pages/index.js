@@ -90,7 +90,7 @@ export default function Home() {
           </p>
         </Part>
         <GapMedium />
-        <Heading2 color="blue">Socials and Links</Heading2>
+        <Heading2 color="pink">Socials and Links</Heading2>
         <IconGroup>
             <IconLink link="https://soundcloud.com/solidsoundfm" text="Solid Sound FM" image="/page/homepage/icon-soundcloud.jpg" />
             <IconLink link="https://facebook.com/kushti.23" text="Facebook Kushti" image="/page/homepage/icon-kushti.jpg" />

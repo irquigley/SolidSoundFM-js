@@ -1,0 +1,100 @@
+.boxes a {
+    color: $blue-link;
+  }
+  
+  .boxes a:hover {
+    background-color: $white;
+  }
+  
+  .boxes {
+    text-align: center;
+  }
+  
+  .boxes .box {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+  }
+  
+  .boxes .box .title {
+    padding: 8px 5px 5px 5px;
+    font-weight: bold;
+  }
+  
+  .boxes .box .body {
+    padding: 10px;
+  }
+  
+  .boxes.orange .box .title {
+    background: $orange-bold;
+  }
+  
+  .boxes.orange .box .body {
+    border: 3px solid $orange-bold;
+    background: #fff4dd;
+  }
+  
+  .boxes.yellow .box .title {
+    background: $yellow;
+  }
+  
+  .boxes.yellow .box .body {
+    border: 3px solid $yellow;
+    background: $yellow-background;
+  }
+  
+  .boxes.blue .box .title {
+    background: $blue;
+    color: $black;
+  }
+  
+  .boxes.blue .box .body {
+    border: 3px solid $blue;
+    background: $blue-background;
+  }
+  
+  .boxes.pink .box .title {
+    background: $pink;
+    color: $black;
+  }
+  
+  .boxes.pink .box .body {
+    border: 3px solid $pink;
+    background: $pink-background;
+  }
+
+  .boxes.pink a  {
+    color: $pink-link;
+  }
+
+  .boxes.purple .box .title {
+    background: $purple;
+    color: $black;
+  }
+  
+  .boxes.purple .box .body {
+    border: 3px solid $purple;
+    background: $purple-background;
+  }
+
+  .boxes.purple a  {
+    color: $purple-link;
+  }
+
+  
+  
+  /* --- WIDE ---------------*/
+  @media (min-width: 600px) {
+    .boxes .box {
+      width: 360px;
+      margin: 10px;
+    }
+  }
+  
+  /* --- NARROW  ---------------*/
+  @media (max-width: 600px) {
+    .boxes .box {
+      width: 97%;
+    }
+  } /* ---- */
+  

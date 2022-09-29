@@ -4,7 +4,8 @@ const Styles = [
   "orange-light",
   "blue-bold",
   "blue-light",
-  "pink-light"  
+  "pink-light",
+  "purple-light" 
 ];
 
 export default function Part({ color, children }) {

@@ -17,12 +17,12 @@ export default function Do_Talkin_Tunes() {
     <>
       <PageContainer title="How to: Talking Tunes">
         <Heading1>Talking Tunes</Heading1>
-        <Heading2 color="blue">What is it?</Heading2>
+        <Heading2 color="purple">What is it?</Heading2>
         <GapSmall />
-        <BoxGroup color="blue">
+        <BoxGroup color="purple">
         <Box title="The Best Interview">
-            The Best &quot;interview&quot; is an open-ended free flowing conversation.<br/>
-            It should be fun for both of us. It&apos;s not a performance, there is no right or wrong aswers.
+            A Great &quot;interview&quot; is an open-ended free flowing conversation.<br/>
+            It should be fun for both of us. It&apos;s not a performance, there is no right or wrong answers.
           </Box>
         <Box title="15 tunes">
             Pick 15 tunes you think are worth talking about.
