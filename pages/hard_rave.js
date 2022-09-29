@@ -9,7 +9,7 @@ import Box from "../components/Box";
 import PageContainer from "../components/PageContainer";
 import FacebookPlugin from "../components/scripts/facebook";
 
-import styles from "../styles/Home.module.css";
+
 import SoundCloudBox from "../components/SoundCloudBox";
 
 export default function Hard_Rave() {

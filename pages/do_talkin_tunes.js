@@ -9,7 +9,7 @@ import ImageExt from "../components/ImageExt";
 
 import PageContainer from "../components/PageContainer";
 
-import styles from "../styles/Home.module.css";
+
 import Part from "../components/Part";
 
 export default function Do_Talkin_Tunes() {

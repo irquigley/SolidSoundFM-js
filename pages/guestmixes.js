@@ -10,7 +10,7 @@ import Box from "../components/Box";
 import PageContainer from "../components/PageContainer";
 import SoundCloudBox from "../components/SoundCloudBox";
 
-import styles from "../styles/Home.module.css";
+
 
 export default function GuestMixes() {
   return (

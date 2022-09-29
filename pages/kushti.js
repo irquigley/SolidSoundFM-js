@@ -11,7 +11,6 @@ import ImageExt from "../components/ImageExt";
 import PageContainer from "../components/PageContainer";
 import FacebookPlugin from "../components/scripts/facebook";
 
-import styles from "../styles/Home.module.css";
 
 export default function Kushti() {
   return (

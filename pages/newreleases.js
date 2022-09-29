@@ -3,7 +3,7 @@ import Part from "../components/Part";
 
 import PageContainer from "../components/PageContainer";
 
-import styles from "../styles/Home.module.css";
+
 import SoundCloudBox from "../components/SoundCloudBox";
 
 export default function NewReleases() {
