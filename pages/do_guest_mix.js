@@ -9,7 +9,6 @@ import Box from "../components/Box";
 import PageContainer from "../components/PageContainer";
 import SoundCloudBox from "../components/SoundCloudBox";
 
-import styles from "../styles/Home.module.css";
 import Part from "../components/Part";
 import ImageExt from "../components/ImageExt";
 
