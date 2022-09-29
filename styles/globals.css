@@ -30,6 +30,93 @@ a {
   color: #242d38;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img.auto-shrink {
+  max-width: 100%;
+}
+
+
+/*--- Page Styles ---- */
+.content {
+  background: #fff;
+  color: #111;
+  border-top: 3px solid #000;
+  border-left: 2px solid #333;
+  border-right: 2px solid #333;
+}
+
+.content p b {
+  color: #000;
+}
+
+.content ul > li {
+  list-style: none;
+}
+
+@media (min-width: 600px) {
+  .content {
+    padding: 10px;
+    font-size: 11pt;
+  }
+
+  .content p,
+  .content ul li {
+    font-size: 14px;              
+  }
+
+  .content p {
+    padding: 8px 12px;
+  }
+
+  .content ul
+  {
+    padding: 0px 0px 10px 0px;
+  }         
+
+  .content ul > li {
+    margin: 0px 0px 0px 20px;            
+    padding: 2px 0px;
+  }
+}
+
+/* NARROW -*/
+@media (max-width: 600px) {
+  .content {
+    padding: 3px;
+    font-size: 10px;
+  }
+
+  .content p {
+    padding: 4px 6px;
+  }
+
+  .content p,
+  .content ul li {
+    font-size: 14px;
+    
+  }
+
+  .content ul
+  {
+    padding: 0px 0px 10px 0px;
+  }         
+
+  .content ul > li {
+    margin: 0px 0px 0px 8px;            
+    padding: 2px;
+  }
+}
+
+/*--- End of page styles-----*/
+
+/* --- H Styles --- */
 h1,
 h2,
 h3 {
@@ -41,14 +128,316 @@ h4 {
   margin-top: 20px;
 }
 
-a {
+h2 {
+  padding-left: 5px;
+  letter-spacing: 0.07em;
+
+  color: #fff;
+  background: #ffe773;
+  border-bottom: 2px solid #ff5500;
+}
+
+h3.blue {
+  background: #2cf;
+  color: #fff;
+}
+
+h3.pink {
+  background: #f96dd5;
+  color: #fff;
+}
+
+h3.blue, h3.pink
+{         
+  text-shadow: 1px 1px black, -1px -1px black, -1px 1px black,
+    1px -1px black;
+
+  font-size: 25px;
+  padding-left: 5px;
+  padding-top: 5px;
+  letter-spacing: 0.1em;
+}
+
+@media (min-width: 600px) {
+  h2 {
+    font-size: 45px;
+    letter-spacing: 0.07em;
+    text-shadow: 3px 3px 2px#000000c0, -1px -1px black, -1px 1px black,
+      1px -1px black;
+  }
+  
+  h3 {
+    margin: 8px 0px 0px 0px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  h2 {
+    font-size: 30px;
+    letter-spacing: 0.07em;
+    text-shadow: 2px 1px 2px#000000c0, -1px -1px black, -1px 1px black,
+      1px -1px black;
+  }
+  h3 {
+    margin: 5px 4px 2px 5px !important;
+  }
+}
+/* --- End H Styles --- */
+
+
+/*----- End of Header/Title/Menu Styles ---- */
+.header h1 span {
+  display: none;
+}
+
+.header-wrap {
+  background: #00000040;
+}
+
+.menu ul {
+  display: block;
+  list-style-type: none;
+}
+
+.menu ul li {
+  position: relative;
+  display: inline-block;
+  margin: 2px;
+}
+
+.menu ul li a {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
   text-decoration: none;
+  padding-top: 5px;
+  color: #000;
+  background: #00b3e9;
 }
 
-a:hover {
-  text-decoration: underline;
+.menu ul li a:hover {
+  background: #fff;
+  color: #000;
 }
 
-img.auto-shrink {
-  max-width: 100%;
+/* WIDE settings */
+@media (min-width: 600px) {
+  .header-wrap {
+    margin-top: 20px;
+  }
+
+  .header {
+    padding-top: 18px;
+    background: url("/site/solid-sound.png") no-repeat center 10px;
+  }
+
+  .header h1 {
+    height: 115px;
+  }
+
+  .header .menu {
+    text-align: center;
+  }
+
+  .menu ul li {
+    width: 120px;
+    height: 36px;
+    font-size: 11pt;
+  }
+}
+
+/* NARROW Settings */
+@media (max-width: 600px) {
+  .header {
+    background: url("/site/solid-sound.png") 0px 5px / 300px 58px
+      no-repeat;
+    height: 110px;
+  }
+
+  .header .menu {
+    position: absolute;
+    top: 66px;
+  }
+
+  .menu ul li {
+    width: 45px;
+    height: 34px;
+    font-size: 10px;
+  }
+
+  .menu ul li a {
+    padding-left: 5px;
+  }
+}
+/*----- End of Header/Title/Menu Styles ---- */
+
+
+
+/* ---- DIV / Part styles --------------*/
+div.khaki {
+  background: #edeadf;
+  color: #000;            
+}
+
+div.orange-bold {
+  background: #ffcf50;
+  color: #000;
+}
+
+div.orange-light {
+  background: #f9f2d0;
+  color: #000;
+}
+
+div.blue-bold {
+  background: #2cf;
+  color: #fff;
+}
+
+div.blue-light {
+  background: #cdebf9;
+  color: 000;            
+}
+
+div.blue-bold a,
+div.blue-light a {
+  color: #04f;
+}
+
+div.orange-light a,
+div.orange-bold a {
+  color: #f00;
+}
+
+div.khaki a { 
+  color: #f50;
+}
+
+div.pink-light {
+  background: #ffe2f8;
+  color: 000;            
+}
+
+div a:hover {
+  background: #fff;
+}
+
+/* ---- END -- DIV / Part styles --------------*/
+
+
+/* ---- Box Styles  --------------*/
+.boxes a {
+  color: #28f;
+}
+
+.boxes a:hover {
+  background: #fff;
+}
+
+.boxes {
+  text-align: center;
+}
+
+.boxes .box {
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+}
+
+.boxes .box .title {
+  padding: 8px 5px 5px 5px;
+  font-weight: bold;
+}
+
+.boxes .box .body {
+  padding: 10px;
+}
+
+.boxes.orange .box .title {
+  background: #ffcf50;
+}
+
+.boxes.orange .box .body {
+  border: 3px solid #ffcf50;
+  background: #fff4dd;
+}
+
+.boxes.yellow .box .title {
+  background: #ffe773;
+}
+
+.boxes.yellow .box .body {
+  border: 3px solid #ffe773;
+  background: #fff9e4;
+}
+
+.boxes.blue .box .title {
+  background: #17a6ff;
+  color: #000;
+}
+
+.boxes.blue .box .body {
+  border: 3px solid #17a6ff;
+  background: #eef5fa;
+}
+
+.boxes.pink .box .title {
+  background: #ff8ae1;
+  color: #000;
+}
+
+.boxes.pink .box .body {
+  border: 3px solid #ff8ae1;
+  background: #ffe2f8;
+}
+
+
+/* --- WIDE ---------------*/
+@media (min-width: 600px) {
+  .boxes .box {
+    width: 360px;
+    margin: 10px;
+  }
+}
+
+/* --- NARROW  ---------------*/
+@media (max-width: 600px) {
+  .boxes .box {
+    width: 97%;
+  }
+} /* ---- */
+
+/* ---- End of Box Styles  --------------*/
+
+/*---- Gap Styles ---- */
+@media (min-width: 600px) {
+  .smallGap {
+    margin-top: 14px;
+  }
+  .mediumGap {
+    margin-top: 30px;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .mediumGap {
+    margin-top: 10px;
+  }
+  .smallGap {
+    margin-top: 8px;
+  }
+}
+
+
+/*-- Footer ----*/
+.footer {
+  background: #3339;
+  font-size: 12px;
+  padding: 5px;
+  color: #fff;
+  height: 30px;
+  text-align: right;
+  border-top: 2px solid #000;
 }
