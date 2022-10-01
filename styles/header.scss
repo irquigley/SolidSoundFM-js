@@ -3,21 +3,21 @@
   h1,
   h2,
   h3 {
-    font-family: "Boogaloo", sans-serif;
+    font-family: "Bangers", sans-serif;
+    font-weight: normal;
   }
   
-  h4 {
-    color: $black;
-    margin-top: 20px;
-  }
+
   
   h2 {
-    padding-left: 5px;
-    letter-spacing: 0.07em;
-  
+    padding: 7px 0px 0px 5px;
+    
+    letter-spacing: 0.07em;  
     color: $white;
     background: $yellow;
     border-bottom: 2px solid $yellow-contrast;
+    letter-spacing: 0.07em;
+    
   }
   
   h3.blue {
@@ -36,21 +36,22 @@
   h3.blue, h3.pink,  h3.purple
   {         
     color: $white;
-    text-shadow: 1px 1px black, -1px -1px black, -1px 1px black,
-      1px -1px black;
-  
+    text-shadow: 1px 1px black, -1px -1px black, -1px 1px black, 1px -1px black;
     font-size: 25px;
     padding-left: 5px;
     padding-top: 5px;
     letter-spacing: 0.1em;
   }
+
+  h4 {
+    color: $black;
+    margin-top: 20px;
+  }
   
   @media (min-width: 600px) {
     h2 {
       font-size: 45px;
-      letter-spacing: 0.07em;
-      text-shadow: 3px 3px 2px#000000c0, -1px -1px black, -1px 1px black,
-        1px -1px black;
+      text-shadow: 3px 3px 2px #000000c0, -1px -1px black, -1px 1px black, 1px -1px black;
     }
     
     h3 {
@@ -61,9 +62,7 @@
   @media (max-width: 600px) {
     h2 {
       font-size: 30px;
-      letter-spacing: 0.07em;
-      text-shadow: 2px 1px 2px#000000c0, -1px -1px black, -1px 1px black,
-        1px -1px black;
+      text-shadow: 1px 1px #000000c0, -1px -1px black, -1px 1px black, 1px -1px black;
     }
     h3 {
       margin: 5px 4px 2px 5px !important;

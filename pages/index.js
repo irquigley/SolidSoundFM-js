@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <>
       <PageContainer title="Solid Sound FM" link="home">
-        <Heading1>What is it?</Heading1>
+        <Heading1>What is Solid Sound?</Heading1>
 
         <Part color="orange-bold">
           <p>

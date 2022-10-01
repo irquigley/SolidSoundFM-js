@@ -4,8 +4,8 @@ export default function Document() {
   return (
     <Html>
       <Head>
-        <link
-          href="https://fonts.googleapis.com/css?family=Boogaloo&display=swap"
+          <link
+          href="https://fonts.googleapis.com/css?family=Bangers&display=swap"
           rel="stylesheet"
           key="googlefont"
         />
