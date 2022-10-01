@@ -6,7 +6,7 @@ export default function Header({ title, link }) {
   return (
     <>
       <Head>
-        <title>{link}</title>
+        <title>{title}</title>
         <meta name="description" content="Solid Sound FM" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
