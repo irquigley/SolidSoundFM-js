@@ -15,7 +15,7 @@ import Part from "../components/Part";
 export default function Do_Talkin_Tunes() {
   return (
     <>
-      <PageContainer title="How to: Talking Tunes">
+      <PageContainer title="How to: Talking Tunes" link="tt">
         <Heading1>Talking Tunes</Heading1>
         <Heading2 color="purple">What is it?</Heading2>
         <GapSmall />

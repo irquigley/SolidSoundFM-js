@@ -9,7 +9,7 @@ import SoundCloudBox from "../components/SoundCloudBox";
 export default function NewReleases() {
   return (
     <>
-      <PageContainer title="New Releases">
+      <PageContainer title="New Releases" link="show">
         <Heading1>Monthly New Releases show</Heading1>
 
         <Part color="blue-bold">

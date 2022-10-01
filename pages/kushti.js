@@ -15,7 +15,7 @@ import FacebookPlugin from "../components/scripts/facebook";
 export default function Kushti() {
   return (
     <>
-      <PageContainer title="Kushti">
+      <PageContainer title="Kushti" link="kushti">
         <Heading1>Kushti</Heading1>
         <Part color="blue-bold">
           <p>

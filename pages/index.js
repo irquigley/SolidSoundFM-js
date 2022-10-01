@@ -14,7 +14,7 @@ import IconLink from "../components/IconLink";
 export default function Home() {
   return (
     <>
-      <PageContainer title="Solid Sound FM">
+      <PageContainer title="Solid Sound FM" link="home">
         <Heading1>What is it?</Heading1>
 
         <Part color="orange-bold">

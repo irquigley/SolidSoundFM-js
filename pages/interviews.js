@@ -16,7 +16,7 @@ import SoundCloudBox from "../components/SoundCloudBox";
 export default function Interviews() {
   return (
     <>
-      <PageContainer title="Talking Tunes">
+      <PageContainer title="Talking Tunes" link="tt">
         <Heading1>Talking Tunes</Heading1>
         <Part color="blue-bold">
           <p><b>Talking to people about the music they think is worth talking about.</b></p>

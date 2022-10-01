@@ -15,7 +15,7 @@ import SoundCloudBox from "../components/SoundCloudBox";
 export default function Hard_Rave() {
   return (
     <>
-      <PageContainer title="Hard Rave Energy">
+      <PageContainer title="Hard Rave Energy" link="hre">
         <Heading1>Hard Rave Energy</Heading1>
         <Part color="blue-bold">
           <p><b>Download Free Hard Rave Music!</b></p>

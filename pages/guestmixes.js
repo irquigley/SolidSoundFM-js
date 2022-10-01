@@ -15,7 +15,7 @@ import SoundCloudBox from "../components/SoundCloudBox";
 export default function GuestMixes() {
   return (
     <>
-      <PageContainer title="Guest Mixes">
+      <PageContainer title="Guest Mixes" link="mix">
         <Heading1>Guest Mixes</Heading1>
 
         <Part color="blue-bold">

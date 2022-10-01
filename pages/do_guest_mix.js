@@ -15,7 +15,7 @@ import ImageExt from "../components/ImageExt";
 export default function do_guest_mix() {
   return (
     <>
-      <PageContainer title="Guest Mixes">
+      <PageContainer title="Guest Mixes" link="mix">
         <Heading1>Recording a Guest Mix</Heading1>
         <GapSmall />
 

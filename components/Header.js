@@ -1,11 +1,12 @@
 import Link from "next/link";
 import Head from "next/head";
 
-export default function Header({ title }) {
+export default function Header({ title, link }) {
+   
   return (
     <>
       <Head>
-        <title>{title}</title>
+        <title>{link}</title>
         <meta name="description" content="Solid Sound FM" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -18,38 +19,38 @@ export default function Header({ title }) {
           <div className="menu">
             <ul>
               <li>
-                <Link href="/">
-                  <a>HOME</a>
-                </Link>
+                <Link href="/">                
+                  <a><div className={link == "home" ? "active" : ""}>HOME</div></a>                  
+                </Link>                
               </li>
               <li>
                 <Link href="kushti">
-                  <a>KUSHTI</a>
+                  <a><div className={link == "kushti" ? "active" : ""}>KUSHTI</div></a>
                 </Link>
               </li>
               <li>
                 <Link href="interviews">
-                  <a>TALKING TUNES</a>
+                  <a><div className={link == "tt" ? "active" : ""}>TALKING TUNES</div></a>
                 </Link>
               </li>
               <li>
                 <Link href="guestmixes">
-                  <a>GUEST MIX</a>
+                  <a><div className={link == "mix" ? "active" : ""}>GUEST MIX</div></a>
                 </Link>
               </li>
               <li>
                 <Link href="hard_rave">
-                  <a>FREE TUNES</a>
+                  <a><div className={link == "hre" ? "active" : ""}>FREE TUNES</div></a>
                 </Link>
               </li>
               <li>
                 <Link href="newreleases">
-                  <a>MUSIC REVIEW</a>
+                  <a><div className={link == "show" ? "active" : ""}>MUSIC REVIEW</div></a>
                 </Link>
               </li>
               <li>
                 <Link href="stuff">
-                  <a>STUFF</a>
+                  <a><div className={link == "stuff" ? "active" : ""}>STUFF</div></a>
                 </Link>
               </li>
             </ul>
