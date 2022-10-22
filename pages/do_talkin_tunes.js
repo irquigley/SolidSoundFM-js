@@ -138,8 +138,8 @@ export default function Do_Talkin_Tunes() {
             what you like.
           </Box>
           <Box title="Send MP3Z">
-            If you can send me the digital files for your selection, that would
-            be super helpful! Use WeTransfer.com for example
+            <u>Helpful, but not essential!</u> If you can send me the digital files for your selection, that would
+            be super helpful! Use WeTransfer.com for example. If you <b>don&apos;t</b> have the digital files for the track, I will source them. 
           </Box>
           <Box title="Notes">
             Do a little background research. People love hearing nuggets of
