@@ -36,7 +36,7 @@
   h3.blue, h3.pink,  h3.purple
   {         
     color: $white;
-    text-shadow: 1px 1px black, -1px -1px black, -1px 1px black, 1px -1px black;
+    text-shadow: 1px 1px $black, -1px -1px $black, -1px 1px $black, 1px -1px $black;
     font-size: 25px;
     padding-left: 5px;
     padding-top: 5px;
@@ -51,7 +51,7 @@
   @media (min-width: 600px) {
     h2 {
       font-size: 45px;
-      text-shadow: 3px 3px 2px #000000c0, -1px -1px black, -1px 1px black, 1px -1px black;
+      text-shadow: 3px 3px 2px $black-verytrans, -1px -1px $black, -1px 1px $black, 1px -1px $black;
     }
     
     h3 {
@@ -62,7 +62,7 @@
   @media (max-width: 600px) {
     h2 {
       font-size: 30px;
-      text-shadow: 1px 1px #000000c0, -1px -1px black, -1px 1px black, 1px -1px black;
+      text-shadow: 1px 1px $black-verytrans, -1px -1px $black, -1px 1px $black, 1px -1px $black;
     }
     h3 {
       margin: 5px 4px 2px 5px !important;

@@ -1,11 +1,11 @@
 
   /*--- Page Styles ---- */
   .content {
-    background: #fff;
-    color: #111;
+    background: $content_background;
+    color: $content_text;
     border-top: 3px solid $black;
-    border-left: 2px solid #333;
-    border-right: 2px solid #333;
+    border-left: 2px solid $dark_grey;
+    border-right: 2px solid $dark_grey;
   }
   
   .content p b {
