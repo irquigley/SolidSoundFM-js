@@ -48,11 +48,7 @@ export default function Header({ title, link }) {
                   <a><div className={link == "show" ? "active" : ""}>MUSIC REVIEW</div></a>
                 </Link>
               </li>
-              <li>
-                <Link href="stuff">
-                  <a><div className={link == "stuff" ? "active" : ""}>STUFF</div></a>
-                </Link>
-              </li>
+         
             </ul>
           </div>
         </div>

@@ -5,7 +5,7 @@ $background_if_no_image: #474b4c;
 
 $pink-h: #F96D8F ;/* #f96dd5;  /* header */
 $pink: saturate(lighten($pink-h, 9), 20);
-$pink-background: desaturate(lighten($pink-h, 25), 30); 
+$pink-background: desaturate(lighten($pink-h, 28), 30); 
 $pink-link: darken(saturate($pink-h, 20), 30) ;
 
 $purple-h: adjust-hue($pink-h, 300);
@@ -26,6 +26,7 @@ $orange-bold: adjust-hue($pink-h, 60);
 $orange-bold-background: lighten($orange-bold, 20);
 
 $khaki: desaturate(lighten($orange-bold-background, 3) ,60);
+$khaki-h: darken($khaki,30);
 
 $yellow: adjust-hue($pink-h, 70); /* #ffe773; */
 $yellow-background:desaturate(lighten($yellow, 25), 30); 
@@ -42,15 +43,14 @@ $khaki-link: #f50;
 $a_link_default: #242d38;
 $footer-background: #3339;
 $black-verytrans: #000000c0;
-$black_translite: #0009;
-$content_background: #fff;
-$content_text: #111;
+$black_translite: #0005;
+$content_background: rgba(0, 0, 0, 0.233);
+$content_text: #fff;
 $dark_grey: #333;
 
 
 $menu_button_bright: rgb(251,249,63);
 $menu_button_brighthot: lighten($menu_button_bright,50);
-
-$menu_button_inner_light: desaturate(darken(adjust-hue($menu_button_bright,-18) , 4), 8); //#FBBB3F;
-$menu_button_inner_dark: desaturate(darken(adjust-hue($menu_button_bright,-27) , 12), 8); //   #FC9045;
-$menu_button_shadow: desaturate(darken(adjust-hue($menu_button_bright,-27) , 20), 8); //   #FC9045;
+$menu_button_inner_light: desaturate(darken(adjust-hue($menu_button_bright,-18) , 4), 4); 
+$menu_button_inner_dark: desaturate(darken(adjust-hue($menu_button_bright,-27) , 12), 4); 
+$menu_button_shadow: desaturate(darken(adjust-hue($menu_button_bright,-27) , 20), 8); 

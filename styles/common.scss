@@ -39,7 +39,12 @@
     text-decoration: underline;
   }
   
+  @media (min-width: 700px) {
+    img.auto-shrink {
+      padding:10px;}
+  }
   img.auto-shrink {
+    
     max-width: 100%;
   }
   

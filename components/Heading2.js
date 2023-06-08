@@ -1,4 +1,4 @@
-const COLORS = [ "blue", "pink", "purple"];
+const COLORS = [ "blue", "pink", "purple", "kahki"];
 
 export default function Heading2({ color, children }) {
 

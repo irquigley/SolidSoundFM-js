@@ -49,33 +49,39 @@ export default function Kushti() {
 
         <GapSmall />
 
-        <Heading2 color="blue">History</Heading2>
-        
-        <Heading3>1973, born in UK</Heading3>
-        <ImageExt src="/page/baby.png" autoShrink="false" />
+        <Heading2 color="kahki">History</Heading2>
 
-        <Heading3>1992, discovered rave</Heading3>
-        <ImageExt src="/page/Rave92.jpg#" autoShrink="false" />
+        <Part color="kahki">
+          <p>1973, born in UK</p>
+          <ImageExt src="/page/baby.png" autoShrink="true" />
 
-        <Heading3>1996, living in Holland</Heading3>
+          <p>1992, discovered rave</p>
+        <ImageExt src="/page/Rave92.jpg#" autoShrink="true" />
+
+        <p>1996, living in Holland</p>
         <ImageExt src="/page/me-1210s.jpg" autoShrink="true" />
 
-        <Heading3>2002-2010, moved to Ireland, got married, had kids</Heading3>
+        <p>2002-2010, moved to Ireland, got married, had kids</p>
         <ImageExt src="/page/2002-2010.png" autoShrink="true" />
 
-        <Heading3>
+        <p>
           2013, started Solid Sound (the original &apos;logo&apos;)
-        </Heading3>
+        </p>
         <ImageExt src="/page/ss-logo-2013.jpg" autoShrink="true" />
 
-        <Heading3>
+        <p>
           Drinking Chateauneuf de Pape, on the doorstep of the chalet, Bangface
           Weekender 2015
-        </Heading3>
+        </p>
         <ImageExt src="/page/me-bang-du-pape.jpg" autoShrink="true" />
-
-        <Heading3>Rise of the Celts, Bangface Weekender 2018</Heading3>
+          <p>Rise of the Celts, Bangface Weekender 2018</p>
         <ImageExt src="/page/me-bangface-2018.jpg" autoShrink="true" />
+        </Part>
+        
+        
+  
+
+        
       </PageContainer>
     </>
   );

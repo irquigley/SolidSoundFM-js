@@ -1,10 +1,11 @@
-export default function IconGroup({ children }) {
+export default function IconGroup({ color, children }) {
   
+  const classStyle = "iconGroup " +  color;
 
   return (
     <>
       
-      <div className="iconGroup">{children}</div>
+      <div className={classStyle}>{children}</div>
       
       <style >
         {`
@@ -29,7 +30,8 @@ export default function IconGroup({ children }) {
             }
             div.iconLink {
                 width: 92px;
-                height: 130px;                            
+                height: 140px;     
+                background: #fff;                       
               }
     
               div.iconLink img {
